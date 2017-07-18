@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        function validateForm() {
+            var x = document.forms["myForm"]["fname"].value;
+            console.log(x);
+            if (x == null || x == "") {
+                alert("需要输入名字。");
+                return false;
+            }
+        }
+        function myFunction() {
+            var x,text;
+            x = document.getElementById("numb").value;
+            console.log(x);
+            document.getElementById("mumo").innerHTML = x + "输入值";
+            if (isNaN(x) || x < 1 || x > 10) {
+                console.log(x + "输入错误");
+                text = "输入错误";
+            }else  {
+                console.log(x + text);
+                text = "输入正确";
+            }
+            document.getElementById("demo").innerHTML = text;
+            document.getElementById("sum").innerHTML = sum(2,3,4,5,777,890,25);
+        }
+        
+        function validateEmailForm() {
+            var x = document.forms["myForm"]["email"].value;
+            var atops = x.indexOf("@");
+            var dotpos = x.lastIndexOf(".");
+            if (atops < 1 || dotpos < atpos + 2 || dotpos + 2 >= x.length) {
+                alert("不是一个有效 e-mail 地址");
+                return false;
+            }
+        }
+        function sum() {
+            var i, sum = 0;
+            for (i = 0, i < arguments.length, i++) {
+                sum = sum + arguments[i];
+            }
+            return sum;
+        }
+
+
+
+    </script>
+    <title>title</title>
+</head>
+<body>
+<p>
+    请输入 1 到 10 之间的数字：
+</p>
+<input id = "numb">
+
+<p id = "demo"></p>
+<p id = "mumo"></p>
+<p id = "sum">所有数之和</p>
+<button type="button" onclick="myFunction()">提交</button>
+
+<form name="myForm" action="demo-form.php" onsubmit="return validateEmailForm()">email：<input type="text" name="email">
+    <input type="submit" value="提交">
+
+</form>
+
+</body>
+</html>

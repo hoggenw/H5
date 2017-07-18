@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>show2</title>
+</head>
+<body>
+<p>输入数字按钮并点击验证按钮：</p>
+<input id="id1" type="number" min="100" max="300" required>
+<button onclick="myFunction()">验证</button>
+<p id = "sum">所有数之和</p>
+<p>如果输入的数字小于 100 或大于300，会提示错误信息。</p>
+
+<p id = "demo"></p>
+<p id = "demo2"></p>
+
+<script>
+    function myFunction() {
+        var inpObj = document.getElementById("id1");
+        if (inpObj.checkValidity() == false) {
+            document.getElementById("demo").innerHTML = inpObj.validationMessage;
+        }else {
+            document.getElementById("demo").innerHTML = "输入正确"
+        }
+        var text = '{ "sites" : [' +
+            '{ "name":"Runoob" , "url":"www.runoob.com" },' +
+            '{ "name":"Google" , "url":"www.google.com" },' +
+            '{ "name":"Taobao" , "url":"www.taobao.com" } ]}';
+        var obj = JSON.parse(text);
+        document.getElementById("demo2").innerHTML = obj.sites[1].name + "    " + obj.sites[1].url;
+        document.getElementById("sum").innerHTML = sum(2,3,4,5,777,890,25);
+    }
+
+    function sum() {
+        var i, sum = 0;
+        for (i = 0; i < arguments.length; i++) {
+            sum = sum + arguments[i];
+        }
+        return sum;
+    }
+
+
+</script>
+</body>
+</html>
