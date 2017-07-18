@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>show3Control.js</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #999999; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(128,128,128); font-style: italic; }
+.s1 { color: rgb(0,0,0); }
+.s2 { color: rgb(0,0,128); font-weight: bold; }
+.s3 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+show3Control.js</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">/** 
+ * Created by wangliugen on 2017/7/13. 
+ */</span><span class="s1"> 
+ 
+</span><span class="s2">function </span><span class="s1">addNewPart() { 
+</span><span class="s2">var </span><span class="s1">para = document.createElement(</span><span class="s3">&quot;p&quot;</span><span class="s1">); 
+</span><span class="s2">var </span><span class="s1">node = document.createTextNode(</span><span class="s3">&quot;this new part&quot;</span><span class="s1">); 
+para.appendChild(node); 
+</span><span class="s2">var </span><span class="s1">elment = document.getElementById(</span><span class="s3">&quot;div1&quot;</span><span class="s1">); 
+elment.appendChild(para); 
+ 
+} 
+ 
+</span><span class="s2">function </span><span class="s1">deletePart() { 
+    </span><span class="s2">var </span><span class="s1">parent = document.getElementById(</span><span class="s3">&quot;div1&quot;</span><span class="s1">); 
+    </span><span class="s2">var </span><span class="s1">child = document.getElementById(</span><span class="s3">&quot;p1&quot;</span><span class="s1">); 
+    parent.removeChild(child); 
+}</span></pre>
+</body>
+</html>
