@@ -9,12 +9,14 @@
     <input type="radio" name="hoggen" value="first">first <br>
     <input type="radio" name="hoggen" value="second">second <br>
     <input type="radio" name="hoggen" value="third">third
+    <input type="submit" value="提交">
 </form>
 <p> <b>注意：</b>当用户点击一个单选按钮时，它就会被选中，其他同名的单选按钮就不会被选中。 </p>
 
 <form action="">
     <input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
     <input type="checkbox" name="vehicle" value="Car">I have a car
+    <input type="submit" value="提交">
 </form>
 
 <form action="">
@@ -35,6 +37,22 @@
 <form action="">
     <input type="button" value="点我">
 </form>
+
+<form action="">
+    <fieldset>
+        <legend>个人信息：</legend>
+        姓名：<input type="text" size="30"><br>
+        E-mail: <input type="text" size="30"><br>
+        Date of birth: <input type="text" size="10">
+    </fieldset>
+</form>
+
+<form action="Radio.html">
+    姓: <input type="text" name="firtName" value="王"><br>
+    名：<input type="text" name="LastName" value="dada">
+    <input type="submit" value="提交">
+</form>
+<p>点击"提交"按钮，表单数据将被发送到服务器上的</p>
 
 </body>
 </html>
