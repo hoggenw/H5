@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+</head>
+<body>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
+    您的浏览器不支持 HTML5 canvas 标签。
+</canvas>
+
+
+<canvas id="yourCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
+    您的浏览器不支持 HTML5 canvas 标签。
+</canvas>
+
+<canvas id="Canvas" width="200" height="100" style="border:1px solid #c3c3c3;">
+    您的浏览器不支持 HTML5 canvas 标签。
+</canvas>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
+    <polygon points="100,10 40,180 190,60 10,60 160,180"
+             style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;"/>
+</svg>
+
+
+<script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    //    ctx.fillStyle = "#FF0000";
+    //    ctx.fillRect(0,0,150,75);
+    ctx.moveTo(0,0);
+    ctx.lineTo(200,100);
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    ctx.font = "30px Arial";
+    ctx.fillText("hedddd",10,50);
+    ctx.strokeText("sss", 100,50);
+</script>
+<script>
+
+//    var c=document.getElementById("yourCanvas");
+//    var ctx=c.getContext("2d");
+//
+//    // Create gradient
+//    var grd=ctx.createLinearGradient(0,0,200,0);
+//    grd.addColorStop(0,"red");
+//    grd.addColorStop(1,"white");
+//
+//    // Fill with gradient
+//    ctx.fillStyle=grd;
+//    ctx.fillRect(10,10,150,80);
+    var canvas = document.getElementById("yourCanvas");
+    var ctx = canvas.getContext("2d");
+    //创建渐变
+    var grd = ctx.createLinearGradient(0,0,200,0);
+    grd.addColorStop(0,"red");
+    grd.addColorStop(1,"white");
+    ctx.fillStyle = grd;
+    ctx.fillRect(20,20,160,60);
+</script>
+
+<script>
+
+    var c=document.getElementById("Canvas");
+    var ctx=c.getContext("2d");
+
+    // Create gradient
+    var grd=ctx.createRadialGradient(75,50,5,90,60,100);
+    grd.addColorStop(0,"red");
+    grd.addColorStop(1,"white");
+
+    // Fill with gradient
+    ctx.fillStyle=grd;
+    ctx.fillRect(10,10,150,80);
+
+</script>
+
+<p>Image to use:</p>
+<img id="scream" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" alt="The Scream" width="220" height="277"><p>Canvas:</p>
+<canvas id="4Canvas" width="250" height="300" style="border:1px solid #d3d3d3;">
+    您的浏览器不支持 HTML5 canvas 标签。</canvas>
+
+</body>
+
+<script>
+
+    var c=document.getElementById("4Canvas");
+    var ctx=c.getContext("2d");
+    var img=document.getElementById("scream");
+
+    img.onload = function() {
+        ctx.drawImage(img,10,10);
+    }
+</script>
+</html>
