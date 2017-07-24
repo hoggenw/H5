@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video</title>
+</head>
+<body>
+<video width="320" height="240" controls>
+    <source src= "http://us.sinaimg.cn/003opPNzjx06YJT4qI4o05040100QgCe0k01.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    您的浏览器不支持 HTML5 video 标签。
+</video>
+
+<form action="">
+    选择你喜欢的颜色： <input type="color" name="favcolor"><br>
+    生日： <input type="datetime-local" name="bdaytime"><br>
+    数量 ( 1 到 100 之间): <input type="number" name="quantity" min="1" max="100">
+    <input type="submit">
+</form>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+    <input type="range" id = "a" value="50">100 +
+    <input type="number" id= "b" value="50"> = <output name="x" for="a b">
+
+    </output>
+</form>
+
+<div id="result">
+
+</div>
+
+<div id="changed">
+
+</div>
+<script>
+    if (typeof(Storage) !== "undefined" ) {
+        localStorage.sitename = "hoggen wang";
+        document.getElementById("result").innerHTML = "网站名：" + localStorage.sitename;
+        document.getElementById("changed").innerHTML = "网站名：" + localStorage.sitename;
+        localStorage.removeItem("sitename");
+        document.getElementById("changed").innerHTML = "网站名：" + localStorage.sitename;
+    }else  {
+        document.getElementById("result").innerHTML="对不起，您的浏览器不支持 web 存储。";
+    }
+</script>
+
+<script>
+    function clickCounter()
+    {
+        if(typeof(Storage)!=="undefined")
+        {
+            if (localStorage.clickcount)
+            {
+                localStorage.clickcount=Number(localStorage.clickcount)+1;
+            }
+            else
+            {
+                localStorage.clickcount=1;
+            }
+            document.getElementById("result2").innerHTML=" 你已经点击了按钮 " + localStorage.clickcount + " 次 ";
+        }
+        else
+        {
+            document.getElementById("result2").innerHTML="对不起，您的浏览器不支持 web 存储。";
+        }
+    }
+</script>
+<p><button onclick="clickCounter()" type="button">点我！</button></p>
+<div id="result2"></div>
+<p>点击该按钮查看计数器的增加。</p>
+<p>关闭浏览器选项卡(或窗口),重新打开此页面,计数器将继续计数(不是重置)。</p>
+
+
+</body>
+</html>
