@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <style>
+        #paral
+        {
+            text-align: center;
+            color: red;
+        }
+        body
+        {
+            background-color: #c3c3c3;
+            background-image: url("http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg");
+            background-repeat: no-repeat;
+            background-position: top right;
+        }
+        h1
+        {
+            background-color: #6495ed;
+            text-align: center;
+        }
+        p
+        {
+            background-color: #e0ffff;
+            text-decoration: line-through;
+
+        }
+        p.date
+        {
+            text-align: right;
+            text-decoration: overline;
+        }
+        p.main
+        {
+            text-align: justify;
+            text-decoration: underline;
+            text-indent: 50px;
+        }
+        div
+        {
+            background-color: #b0c3de;
+        }
+        a:link {color:#000000;}      /* 未访问链接*/
+        a:visited {color:#00FF00;}  /* 已访问链接 */
+        a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
+        a:active {color:#0000FF;}  /* 鼠标点击时 */
+        div.ex
+        {
+            /*background-color: red;*/
+            width: 220px;
+            padding: 10px;
+            border: 5px greenyellow;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+<h1>醒目的大标题</h1>
+<p id="paral">Hello hoggen</p>
+<p class="date">2017年3月14日</p>
+<p class="main">"当我年轻的时候，我梦想改变这个世界；当我成熟以后，我发现我不能够改变这个世界，我将目光缩短了些，决定只改变我的国家；当我进入暮年以后，我发现我不能够改变我们的国家，我的最后愿望仅仅是改变一下我的家庭，但是，这也不可能。当我现在躺在床上，行将就木时，我突然意识到：如果一开始我仅仅去改变我自己，然后，我可能改变我的家庭；在家人的帮助和鼓励下，我可能为国家做一些事情；然后，谁知道呢?我甚至可能改变这个世界"</p>
+<p>nothing changed</p>
+<div>
+    <p><b><a href="http://www.jianshu.com/u/63829ada9944" target="_blank">这是一个链接</a></b></p>
+    <p><b>注意：</b> a:hover 必须在 a:link 和 a:visited 之后，需要严格按顺序才能看到效果。</p>
+    <p><b>注意：</b> a:active 必须在 a:hover 之后。</p>
+    大块大块的段落
+</div>
+
+<img src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="250" height="250"/>
+
+<div class="ex">上面的图片是250 px宽。
+    这个元素的总宽度也是250 px。
+</div>
+
+</body>
+</html>

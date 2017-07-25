@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dimension</title>
+    <style>
+        img.normal
+        {
+            height:auto;
+            float: left;
+        }
+        img.big
+        {
+            height:120px;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            z-index: -1;
+            clip:rect(0px,60px,200px,0px);
+        }
+        p.ex
+        {
+            height:100px;
+            width:100px;
+        }
+        img.normal {height:auto;}
+        img.big {height:50%;}
+        img.small {height:10%;}
+        h2
+        {
+            position:absolute;
+            left:100px;
+            top:150px;
+        }
+        h2.pos_left
+        {
+            position: relative;
+            left: -20px;
+        }
+        h2.pos_right
+        {
+            position: relative;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="normal" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+
+<img class="big" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<img class="small" src="http://img0.imgtn.bdimg.com/it/u=1758735242,3565345630&fm=214&gp=0.jpg" width="95" height="84" />
+<p class="ex">这个段落的高和宽是 100px.</p>
+<p>这是段落中的一些文本。这是段落中的一些文本。
+    这是段落中的一些文本。这是段落中的一些文本。
+    这是段落中的一些文本。这是段落中的一些文本.</p>
+
+<h2>这是位于正常位置的标题</h2>
+<h2 class="pos_left">这个标题相对于其正常位置向左移动</h2>
+<h2 class="pos_right">这个标题相对于其正常位置向右移动</h2>
+<p>相对定位会按照元素的原始位置对该元素进行移动。</p>
+<p>样式 "left:-20px" 从元素的原始左侧位置减去 20 像素。</p>
+<p>样式 "left:20px" 向元素的原始左侧位置增加 20 像素。</p>
+</body>
+</html>
