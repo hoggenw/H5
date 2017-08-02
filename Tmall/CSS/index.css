@@ -1,0 +1,112 @@
+
+/*
+1.设置min-width:1240px;  /* 可使窗口缩小时，页面背景颜色最短为1240px，
+而内容的宽度为1230px，可使窗口缩小时，内容距窗口左右各5px外边距。
+ */
+
+/*顶部导航栏*/
+#sn-bg {
+    width: 100%;
+    /* height:35px; */
+    min-width: 1240px;
+    background: #f2f2f2;
+    border-bottom: 1px #e5e5e5;
+    line-height: 35px;
+    /*文字行高*/
+}
+#sn-bg.sn-container {
+     /*比如：position：absolute；left:20px;top:80px; 这个容器始终位于距离浏览器左20px,距离浏览器上80px的这个位置。
+position：relative是相对定位，是相对于前面的容器定位的。这个时候不能用top left在定位。应该用margin。*/
+     position: relative;
+     width: 1230px;
+     margin: 0 auto;
+     color: #999;
+ }
+
+#sn-bg.sn-container::after {
+    content: "";
+    display: block;
+    height: 0 ;
+    clear: both;
+}
+
+#site-nav.total-container {
+    /*用于生成绝对定位的元素,相对于浏览器窗口进行定位。*/
+    position: fixed;
+    top: -50px;
+    /*z-index参数越大，表示越会显示在其他堆叠元素之上。*/
+    z-index: 10000;
+    width: 100%;
+    min-width: 1240px;
+    height: 50px;
+    /*隐藏溢出,清除浮动*/
+    overflow: hidden;
+    background: rgba(226,33,39,.95);
+    transition: all .2s;
+}
+
+#sn-bg .sn-container a{
+    color:#999;
+}
+/*a:hvoer是一个CSS伪类，用于鼠标移到a的时候的样式*/
+#sn-bg .sn-container a:hover{
+    text-decoration:underline;
+    color:#FF0036;
+}
+
+#sn-bg .sn-quick-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#sn-bg .sn-quick-menu>li{
+    position:relative;
+    float:left;
+    padding:0 10px;
+}
+
+/* 形成三角形 */
+#sn-bg .sn-quick-menu b{
+    position:absolute;
+    top:15px;
+    right:2px;
+    width:0;
+    height:0;
+    border-width:3px;
+    border-style:solid;
+    border-color:#bbb transparent transparent;
+}
+
+#sn-bg.menu-first {
+    border: 1px solid transparent;/* 原本就有边框，所以悬浮时产生边框元素不会移动（淘宝） */
+
+}
+#sn-bg.menu-first:hover {
+    background:#fff;
+    border-left:1px solid #E5E5E5;
+    border-right:1px solid #E5E5E5;
+
+}
+/*头部搜索*/
+#header{
+    width: 1230px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* 头部搜索栏end */
+
+/* 内容区域start */
+
+/* 内容区域end */
+
+/* 页脚区域start */
+#footer {
+    width: 100%;
+    min-width: 1240px;
+    min-height: 558px;
+    border-top: 1px solid #d2d7dc;
+    text-align: center;
+    background: #ffffff;
+}

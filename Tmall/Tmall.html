@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Tmall</title>
     <meta name="Keywords" content="关键词，啥关键词">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="Description" content="描述" />
     <!--hortcut icon特指浏览器中地址栏左侧显示的图标，一般大小为16x16，后缀名为.icon-->
     <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
@@ -13,15 +13,65 @@
 </head>
 <body>
 <div id="mall">
-    <!--顶部导航栏-->
-    <div id="stie-nav">
-        <div class="sn-container">
+    <div id="site-nav">
+        <div id="sn-bg">
+            <div class="sn-container">
+                <p id="login-info" class="sn-login-info">
+                    <span>喵，欢迎来天猫</span>
+                    <!-- href="javascript:void(0);或者href="javascript:;
+                     void 是JavaScript 中非常重要的关键字，该操作符指定要计算一个表达式但是不返回值。 -->
+                    <a class="sn-login" href="javascript:void(0);">请登录</a>
+                    <a class="sn-register" href="javascript:void(0);">免费注册</a>
+                </p>
+
+                <ul class="sn-quick-menu">
+
+                    <li class="menu-first">
+                        <div>
+                            <a href="javascript:void(0);">我的淘宝</a>
+                            <b></b>
+                            <div class="menu-second menu-left">
+                                <a href="javascript:void(0);">已买到的宝贝</a>
+                                <a href="javascript:void(0);">已卖出的宝贝</a>
+                            </div>
+                        </div>
+
+                    </li>
+
+
+
+
+                </ul>
+
+            </div>
+        </div>
+
+
+        <div class="total-container">
 
         </div>
 
     </div>
+    <!-- 顶部导航栏end -->
+    <!-- 头部搜索栏start -->
+    <div id="header">
+
+    </div>
+    <!-- 头部搜索栏end -->
+    <!-- 内容区域start -->
+    <div id="content">
+
+    </div>
+
+    <!-- 内容区域end -->
+    <!-- 页脚start -->
+    <div id="footer" class="clearfix">
+
+    </div>
+    <!-- 页脚end -->
 
 </div>
 
+<script type="text/javascript" src="JS/index.js"></script>
 </body>
 </html>
