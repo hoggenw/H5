@@ -88,6 +88,22 @@ position：relative是相对定位，是相对于前面的容器定位的。这�
     border-right:1px solid #E5E5E5;
 
 }
+
+#sn-bg.menu-first:hover b{
+    top: 12px;
+    transform: rotate(180deg);
+    transition: all .2s;
+}
+
+#sn-bg.sn-quick-menu.menu-second {
+    /*只需设置 display:none;即可将该元素设为隐藏的。*/
+    display: none;
+    position: absolute;
+    top: 35px;
+    padding:10px;
+    line-height:20px;
+}
+
 /*头部搜索*/
 #header{
     width: 1230px;
