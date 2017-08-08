@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="tempJs.js"></script>
+    <link rel="stylesheet" type="text/css" href="TempCSS.css">
+    <title>Animation</title>
+</head>
+<body>
+<button id="animation">开始动画</button>
+<button id="animation2">动画2</button>
+<button id="animation3">动画3</button>
+<p><p>默认情况下，所有的 HTML 元素有一个静态的位置，且是不可移动的。
+    如果需要改变为，我们需要将元素的 position 属性设置为 relative, fixed, 或 absolute!
+    positon有4个属性:static relative absolute fixed,默认的时候是static即静止定位,
+    是按照元素在(x)html出现的顺序依次分配位置,static是不受top right left bottom影响的.
+    当父层a的position设为relative(相对定位) 子层b的position设为(绝对定位)时,b的偏移是相对于父层a来定位,
+    例如top:10px的偏移量就使b的顶部和a的顶部有10px的距离.
+    但是如果a没有设置relative 而b设为absolute,b的定位就是相对于浏览器进行,此时top:10px会使b出现在离浏览器上方10px的地方
+</p>
+<div id="div-animation">
+就问你怕不怕
+</div>
+</body>
+</html>

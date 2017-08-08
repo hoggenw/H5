@@ -45,11 +45,42 @@ $(document).ready(function () {
         $(this).css("background-color","#cccccc");
     });
     $("#flip").click(function () {
-       //$("#panel").slideDown("slow") ;
-        $("#panel").slideToggle("slow") ;
+       $("#panel").slideDown(5000,function () {
+            alert("回调如此简单")
+        }) ;
+        //$("#panel").slideToggle("slow") ;
+    });
+    $("#stop").click(function(){
+        $("#panel").stop();
     });
     $("#flip").dblclick(function () {
        $("#panel").slideUp("slow");
+    });
+    $("#animation").click(function () {
+        var div = $("#div-animation");
+       $("#div-animation").animate({left:'250px'});
+        div.animate({height:'300px',opacity:'0.4'},"slow");
+        div.animate({width:'300px',opacity:'0.8'},"slow");
+        div.animate({height:'100px',opacity:'0.4'},"slow");
+        div.animate({width:'100px',opacity:'0.8'},"slow");
+        div.animate({fontSize:'3em'});
+    });
+    $("#animation2").click(function () {
+       $("#div-animation").animate({
+           left: '250px',
+           opacity: '0.5',
+           height: '150px',
+           width:'150px'
+       }) ;
+    });
+    //也可以定义相对值（该值相对于元素的当前值）。需要在值的前面加上 += 或 -=：
+    $("#animation3").click(function () {
+       $("#div-animation").animate({
+           left: '250px',
+           height: '+=150px',
+           width:'+=150px'
+       })
+
     });
 
     // $("#double").mouseenter(function () {
