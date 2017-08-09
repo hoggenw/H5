@@ -89,4 +89,8 @@ $(document).ready(function () {
     // $("#double").mouseleave(function () {
     //     alert("离开元素")
     // })
+
+    $("#justSaySomething").click(function () {
+       $("#p1").css("color","red").slideUp(2000).slideDown(2000);
+    });
 })(jquery)
