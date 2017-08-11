@@ -93,4 +93,31 @@ $(document).ready(function () {
     $("#justSaySomething").click(function () {
        $("#p1").css("color","red").slideUp(2000).slideDown(2000);
     });
+
+    $("#showString").click(function () {
+        alert("Text:" + $("#p1").text());
+        $("#p1").text(function (index, text) {
+            return text + " new： " + "这是一个新赋予的字符串" + "index: " + index;
+        });
+    });
+    $("#showHtml").click(function () {
+        alert("HTML:" + $("#p1").html());
+        $("#p1").html(function (index, oldhtml) {
+            return oldhtml + "新" + "<b>新加的HTML<b>" + "index" + index;
+        });
+    });
+    $("#inputButton").click(function () {
+        alert("value：" + $("#test").val());
+        $("#test").val("修改成另一个输入值");
+    });
+    $("#getbaidu").click(function () {
+       alert($("#baidu").attr("href"));
+       // $("#baidu").attr({"href":"http://www.jianshu.com/u/63829ada9944","title":"新的title"});
+        $("#baidu").attr("href",function (index,origValue) {
+
+            alert(origValue);
+            return "http://www.jianshu.com/u/63829ada9944";
+        });
+    });
+
 })(jquery)
