@@ -120,4 +120,97 @@ $(document).ready(function () {
         });
     });
 
+    $("#settingButtonP").click(function () {
+        $("p").append("<b>追加文本</b>");
+        var tex1 = "<p>第一个添加文本 </p>";
+        var tex2 = $("<p></p>").text("jQuery添加的第二个文本");
+        var text3 = document.createElement("p");
+        text3.innerHTML = "使用 DOM 创建文本 text with DOM";
+        $("body").append(tex1,tex2,text3);
+    });
+    $("#settingButtonOl").click(function () {
+        $("ol").append("<li>追加列表项</li>");
+    });
+
+    $("#settingButtonDelete").click(function () {
+        $("#settingdiv1").remove();
+    });
+    $("#settingButtonDeleteSon").click(function () {
+        $("#settingdiv1").empty();
+    });
+    $("#settingButtonDeleteSome").click(function () {
+        $("p").remove(".delete");
+    });
+    $("#settingButtonAddClass").click(function () {
+       $("h1,h2,p").addClass("blue important");
+       //$("div").addClass("important");
+    });
+    $("#settingButtonAddClassAndDelete").click(function () {
+       $("p").toggleClass("blue");
+       alert("背景颜色 = " + $("p").css("background-color"));
+        $("p").css("background-color", "green");
+    });
+    $("#settingButtonWidthAndHeight").click(function () {
+       var width = "";
+       var height = "";
+       width += "div 的宽度是: " + $("#settingdiv1").width() ;
+       height += "div 的高度是: " + $("#settingdiv1").height();
+       $("p.delete").html(width);
+       $("p.height").html(height);
+
+    });
+    $("#settingButtonInnerWidthAndHeight").click(function () {
+        var width = "";
+        var height = "";
+        width += "div 的宽度是: " + $("#settingdiv1").innerWidth() ;
+        height += "div 的高度是: " + $("#settingdiv1").innerHeight();
+        $("p.delete").html(width);
+        $("p.height").html(height);
+    });
+
+    $("#settingButtonOuterWidthAndHeight").click(function () {
+        var width = "";
+        var height = "";
+        width += "div 的宽度是: " + $("#settingdiv1").outerWidth() ;
+        height += "div 的高度是: " + $("#settingdiv1").outerHeight();
+        $("p.delete").html(width);
+        $("p.height").html(height);
+    });
+    $("#traversalButtonparent").click(function () {
+        $("span").parent().css({"color":"red","border":"2px solid red"});
+    });
+    $("#traversalButtonall").click(function () {
+        $("span").parents().css({"color":"red","border":"2px solid red"});
+    });
+    $("#traversalButtonallul").click(function () {
+        $("span").parents("ul").css({"color":"red","border":"2px solid red"});
+    });
+    $("#traversalButtonbetweenspananddiv").click(function () {
+        $("span").parentsUntil("div").css({"color":"red","border":"2px solid red"});
+    });
+    $("#traversalButtonDiv").click(function () {
+       $("div.ancestors").children().css({"color":"red","border":"2px solid red"});
+    });
+    $("#traversalButtonDivFind").click(function () {
+        $("div.ancestors").find("*").css({"color":"red","border":"2px solid red"});
+    });
+
+    $("#traversalButtonsameLevel").click(function () {
+        $("h2").siblings().css({"color":"red","border":"2px solid red"});
+        $("h2").nextAll().css({"color":"green","border":"2px solid blue"});
+        $("h2").next().css({"color":"red","border":"2px solid blue"});
+
+    });
+    $("#traversalButtonFitter").click(function () {
+        $("div p").first().css("background-color","yellow");
+        $("div p").last().css("background-color","blue");
+        $("p").eq(1).css("background-color","red");
+        $("p").filter(".traversalP").css("background-color","yellow");
+    });
+
+
+
+
+
+
 })(jquery)

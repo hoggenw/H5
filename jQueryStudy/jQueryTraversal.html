@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQueryTraversal</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="tempJs.js">
+
+    </script>
+    <link rel="stylesheet" href="TempCSS.css" type="text/css">
+</head>
+<body>
+    <div class="ancestors">
+        <div class="曾祖父元素" style="width: 500px;">(曾祖父元素)
+            <ul>
+                ul(祖父元素)
+                <li>
+                    li(父元素)
+                    <span>span</span>
+                    <span>span2</span>
+                    <h2>标题2</h2>
+                    <span>span3</span>
+                    <span>span4</span>
+                    <span>span5</span>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="祖父元素" style="width: 600px;">(祖父元素)
+            <p class="traversalP">p(父元素)
+                <span>span</span>
+            </p>
+
+            <p class="middle">p(middle)
+
+            </p>
+            <p class="traversalP">p(父元素)
+                <span>span</span>
+            </p>
+            <p class="last">p(last)
+
+            </p>
+        </div>
+    </div>
+    <button id="traversalButtonparent">修改span上一级父类css</button>
+    <button id="traversalButtonall">修改span所有父类css</button>
+    <button id="traversalButtonallul">修改span所有父类中ul的css</button>
+    <button id="traversalButtonbetweenspananddiv">修改span与div所有父类的css</button>
+    <button id="traversalButtonDiv">ancestors的子元素</button>
+    <button id="traversalButtonDivFind">ancestors的find子元素</button>
+    <button id="traversalButtonsameLevel">同一级的DOM</button>
+    <button id="traversalButtonFitter">筛选</button>
+</body>
+</html>
