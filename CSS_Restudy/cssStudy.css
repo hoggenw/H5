@@ -1,0 +1,63 @@
+body {
+    font-size: 100%;
+    background-image: url("http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg");
+    background-color: aquamarine;
+    background-repeat: repeat-x;
+}
+h1 {
+    background-color: #fefefe;
+}
+
+div {
+    background-color: antiquewhite;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+/*dotted: dotted:定义一个点线边框
+
+dashed: 定义一个虚线边框
+
+solid: 定义实线边框*/
+
+p {
+    background-color: chartreuse;
+    color: coral;
+    text-align: justify;
+    text-decoration: none;
+    /*文本缩进属性是用来指定文本的第一行的缩进。*/
+    text-indent: 40px;
+    /*段落中行之间的空间*/
+    line-height: 100%;
+    /*word-spacing:单词之间的空白*/
+    word-spacing:5px;
+    /*设置文本阴影。*/
+    text-shadow: 2px 2px #ff0000;
+
+}
+a {
+    margin-top: 10px;
+}
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+a:visited {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff00ff;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+
+div.imageDiv {
+    background-color: #cccccc;
+}

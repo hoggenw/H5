@@ -208,6 +208,26 @@ $(document).ready(function () {
         $("p").filter(".traversalP").css("background-color","yellow");
     });
 
+    $("#ajaxButtonImg").click(function () {
+        $("#ajaxImg").load("http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg")
+        var xmlhttp;
+        if (window.XMLHttpRequest){
+            //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+            xmlhttp=new XMLHttpRequest();
+        }else {
+            // IE6, IE5 浏览器执行代码
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("ajax_img").innerHTML = xmlhttp.responseText;
+            }
+            xmlhttp.open("GET","http://www.runoob.com/try/try/ajax/ajax_info.txt",true);
+            xmlhttp.send();
+        }
+    });
+
 
 
 
