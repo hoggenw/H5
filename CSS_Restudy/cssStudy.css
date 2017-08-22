@@ -1,6 +1,6 @@
 body {
     font-size: 100%;
-    background-image: url("http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg");
+    /*background-image: url("http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg");*/
     background-color: aquamarine;
     background-repeat: repeat-x;
 }
@@ -11,7 +11,7 @@ h1 {
 div {
     background-color: antiquewhite;
     text-align: center;
-    text-decoration: line-through;
+    text-decoration: none;
 }
 
 /*dotted: dotted:定义一个点线边框
@@ -60,4 +60,32 @@ a:active {
 
 div.imageDiv {
     background-color: #cccccc;
+}
+li.innerline {
+    display: inline;
+}
+
+span.block {
+    display: block;
+}
+
+p.pao_fixed {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+}
+h2.pos_left
+{
+    position:relative;
+    left:-20px;
+}
+h2.pos_right
+{
+    position:relative;
+    left:20px;
+}
+h2.position {
+ position: absolute;
+    left:  100px;
+    top: 200px;
 }

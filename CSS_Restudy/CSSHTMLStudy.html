@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="cssStudy.css" type="text/css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="cssStudy.js"></script>
     <title>css-study</title>
+    <style>
+        /*div.imageDiv{visibility: hidden;}*/
+        div.imageDiv{display: none;}
+    </style>
 </head>
 <body>
 <!--http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg-->
@@ -15,7 +21,26 @@
 
 <div>
     second div
+    <button id = "action">响应之初</button>
 </div>
+
+<div>
+    <p>链接水平显示</p>
+    <ul>
+        <li class="innerline"><a href="http://www.jianshu.com/u/63829ada9944" target="_blank"></a>我的主页</li>
+        <li class="innerline"><a href="http://www.jianshu.com/u/63829ada9944" target="_blank"></a>我的主页</li>
+        <li class="innerline"><a href="http://www.jianshu.com/u/63829ada9944" target="_blank"></a>我的主页</li>
+        <li class="innerline"><a href="http://www.jianshu.com/u/63829ada9944" target="_blank"></a>我的主页</li>
+
+    </ul>
+    <h2>Nirvana</h2>
+    <span class="block">Record: MTV Unplugged in New York</span>
+    <span class="block">Year: 1993</span>
+    <p class="pao_fixed">fixed 定位</p>
+    <h2 class="pos_left">这个标题相对于其正常位置向左移动</h2>
+    <h2 class="pos_right">这个标题相对于其正常位置向右移动</h2>
+</div>
+<h2 class="position">position相对于父元素的绝对定位</h2>
 
 </body>
 </html>
