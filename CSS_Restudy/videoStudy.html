@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <!--link标签 引入css样式 和dns预解析：立即解析域名，设置预解析后缓存域名对应的ip地址， 引入网站的icon图片-->
     <link href="cssStudy.css" rel="stylesheet" type="text/css">
+    <!--这是设置网站上面显示log的方法-->
     <link rel="shortcut icon" href="">
     <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="cssStudy.js"></script>
@@ -37,6 +38,85 @@
   <!--href指向标签id可以实现页面中的跳转-->
   <!--a标签可以包裹各种元素-->
     <a href="http://www.jianshu.com/p/38e4c77f2873" target="_blank" >我的主页</a>
+<!--无序列表标签 R-->
+        <ul>
+            <!--li标签可以任意嵌套-->
+            <li>chendgu</li>
+            <li>hoggeng</li>
+            <li>wang</li>
+        </ul>
+<!--有序列表 order list-->
+        <ol>
+            <li>chendgu</li>
+            <li>hoggeng</li>
+            <li>wang</li>
+        </ol>
+
+<!--自定义列表-->
+        <dl>
+            <!--dt 自定义列表title 一般嵌套文本-->
+            <dt>标题</dt>
+            <dd>列表项1</dd>
+            <dd>列表项2</dd>
+            <dd>列表项3</dd>
+            <dd>列表项4</dd>Î
+            <dd>列表项5</dd>
+        </dl>
+<!--创建表格标签-->
+  <!--table整个表格-->
+    <table border="1">
+        <!--列的名称-->
+        <thead>
+            <tr>
+                <td>姓名</td> <td>年龄</td>
+            </tr>
+        </thead>
+        <!--基本行-->
+            <tr>
+                <!----> <!--单元格合并 rowspan 代表一个单元格占用两行进行显示-->
+                <!--单元格合并 colspan 代表一个单元格占用两个单元格进行显示-->
+                <td rowspan="2">单元格</td> <td colspan="2">单元格2</td>
+            </tr>
+        <tr>
+            <!---->
+            <!--<td>单元格</td> -->
+            <td>单元格2</td> <td>单元格3</td>
+        </tr>
+        </tr>
+    </table>
+<!--节标签 div块 独占行 span行可以跟其他行内标签公用一行-->
+
+<!--表单-->
+    <!--所有的表单标签必须包裹在form标签中-->
+        <form action="#">
+            <!--value 是值 type是类型-->
+            用户名：<input type="text" value="hoggen"> <br>
+            <!--name相同表示为一组，radio代表单选框 checkbox多选-->
+            <!--checked-->
+            性别： 男<input type="radio" name="gender" checked = "checked"> 女<input type="radio" name="gender">
+            <br>
+            密码：<input type="password">
+            <br>
+            <!--select下拉列表的标签, multiple生成一个直接展开的下拉列表-->
+            <select name="" id="2" >
+                <!--option选项-->
+                <option value="1" >公立</option>
+                <option value="2" selected = "selected">农立</option>
+                <option value="3">公立1</option>
+                <option value="4">农立2</option>
+            </select>
+
+            <select name="" id="" multiple="multiple">
+                <!--option选项-->
+                <option value="1">公立</option>
+                <option value="2">农立</option>
+                <option value="3">公立1</option>
+                <option value="4">农立2</option>
+            </select>
+            <!--文本域textarea-->
+            <textarea cols="20" rows="10">内容</textarea>
+        </form>
+
 </body>
 </html>
 
