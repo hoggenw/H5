@@ -1,8 +1,10 @@
 <!DOCTYPE html> <!--文档的声明-->
 <html lang="zh_CN">
 <head>
-    <!--meta标签，设置当前页面的编码为utf-8-->
+    <!--meta标签，设置当前页面的编码为utf-8 描述和关键词设置-->
     <meta charset="UTF-8">
+    <meta name="keywords" content="s被搜索的关键词">
+    <meta name="description" content="这是描述的词">
     <!--link标签 引入css样式 和dns预解析：立即解析域名，设置预解析后缓存域名对应的ip地址， 引入网站的icon图片-->
     <link href="cssStudy.css" rel="stylesheet" type="text/css">
     <!--这是设置网站上面显示log的方法-->
@@ -116,6 +118,52 @@
             <!--文本域textarea-->
             <textarea cols="20" rows="10">内容</textarea>
         </form>
+
+<!--表单组合标签-->
+<form action="#">
+    <fieldset>
+        <legend>用户组1</legend>
+    用户名：<input type="text">
+    <br>
+    密码：<input type="text">
+    </fieldset>
+    <fieldset>
+        <legend>用户组2</legend>
+    用户名：<input type="text">
+    <br>
+    密码：<input type="text">
+    </fieldset>
+</form>
+
+ <!--from表单标签，包裹标签 action属性只想后台地址-->
+  <!--input：文本库，单选按钮，多选按钮，提交的按钮，按钮，重置的按钮 ，checked标志是否被选中-->
+  <form>
+      <input type="text" value="999">
+      <input type="radio" name="gender">
+      <input type="checkbox">
+      <input type="submit" value="提交" name="" id="">
+      <input type="button" value="点击">
+      <input type="reset" value="重置">
+  </form>
+<!--lable 标签： for 属性指向想要提供服务的标签id  或者直接包裹标签，可以实现点击标签的文本域获得点击效果-->
+ <!--select：下拉列表。 multiple，单属性-->
+<!--option 设置我们的列表选项-->
+<!--textarea： 文本域标签，当输入大量的文本的时候需要使用文本域标签-->
+<!--cols：设置文本域可以输入多少列 字符 宽度-->
+<!--rows 设置文本域的可以输入的行的字符数  高度-->
+
+<!--feildset： 表单的组合标签  legend; 组合标签的标题-->
+<!--base 标签可以让当前页面的所有标签都拥有target属性-->
+  <base target="_blank">
+<a href="www.boosky.org" type="">sss</a>
+  <a href="www.boosky.org">sss--ss</a>
+<!--pre标签是不进行空格的合并-->
+
+  <!--显示字符实体或者显示html代码-->
+
+   &lt;html5 &gt;
+
+<!--行内标签与 块级标签：的区别-->
 
 </body>
 </html>
