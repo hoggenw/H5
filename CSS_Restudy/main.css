@@ -16,3 +16,189 @@ em {
 .purplr-black {
     color: #2a3466;
 }
+/*首先找到所有的。box类对应的标签，然后在找到 标签的所有后台li标签； 实际找是从右向左找的，即先找li 再找box*/
+.box li {
+
+}
+/*用逗号隔开的是并集选择器，即包含其中一个即可以使用该css设置*/
+.box,li {
+
+}
+/*子代选择器,只会选着到儿子倍的，孙子倍的是选择不到的*/
+h1 > strong {
+
+}
+
+div > p {
+    color: yellowgreen;
+
+}
+/*css伪类*/
+/*：hover 当鼠标悬停某个元素时的选择*/
+/*active 被按下链接是的状态  visited ： 已经访问过*/
+
+/*love hate 原则，先link 后visited 然后hover 最后 active*/
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    background-color: silver;
+    color: white;
+}
+
+a:active {
+    color: #2a3466;
+}
+a:focus {
+    font-size: 34px;
+}
+
+
+/*伪元素 标签的一些元素*/
+/*：first- line 第一行文字*/
+
+.article-text:first-line {
+    color: red;
+}
+/*first-letter: 首字符*/
+.article-text:first-letter {
+    font-size: 50px;
+}
+/*first-child 该标签的第一个字元素 */
+span:first-child {
+    color: lime;
+
+}
+
+/*before与after的使用*/
+/*只有冒号before才有content属性*/
+/*before与after是行内元素*/
+.wrap:before,.wrap:after {
+    content: "---------";
+    /*display: block; 这是让当前元素转换为一个块级元素*/
+    display: block;
+}
+
+/*一般会对整个页面做一个设置*/
+/*id选择器样式优先级比类选址器样式高*/
+
+
+.div-inline {
+    /*可以让块级标签变为行内标签*/
+    display: inline;
+    /*background-color: rgb(100,100,100);*/
+    background-color: #0399b8;
+    /*bolder lighter 100 -900 ; 400 对应normal 700 对应加粗；设置字体是否加粗是不需要单位的*/
+    font-weight: 700;
+    /*字体风格：正常normal， 斜体italic，oblique：让文字倾斜显示不管有没有斜体*/
+    font-style: oblique;
+    letter-spacing: 10px;
+    /* word-spacing只对英文单词有影响，如果中文字之间有空格会安装word space来设置*/
+    word-spacing: 10px;
+}
+
+
+/*display可以改变标签的模式*/
+/*dispaly none ,设置后会将该标签删除，效果类似于隐藏*/
+.div-none {
+    /*直接移除，不占用页面空间*/
+    display: none;
+
+}
+/* visibility: hidden; 这是不显示但是占用页面空间*/
+
+.demo-inline {
+    /*行内块元素可以和块级元素一样设置宽高，行内元素不能设置宽高的，行内只有左右边距没有上下，块级元素都有*/
+    display: inline-block;
+    height: 200px;
+    background-color: lime;
+
+}
+.total-p {
+    /*font-size: 20px;*/
+    /*font-family: "Microsoft Sans Serif";*/
+    /*font-style: oblique;*/
+    /*font-weight: 800;*/
+    /*字体合写 必须包含字体大小和字体类型*/
+
+    font: oblique 700 20px "Microsoft Sans Serif";
+    /*letter-spacing字间距*/
+    letter-spacing: 10px;
+}
+.a-button {
+    background-color: silver;
+    font: 700 20px "sans-serif";
+    display: block;
+    width: 200px;
+    height: 50px;
+    /*行高，用于设置行间距*/
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 20px;
+    /*文本下划线*/
+    /*none 没有下划线 underline 下划线 。 overlinbe 上划线， line-through 删除线*/
+    text-decoration: none;
+}
+
+.line-heightseting {
+    /*首行缩进允许使用负值，只能用于块级模块*/
+    text-indent: 2em;
+    white-space: normal;
+}
+/*white-space: normal; 空白符的处理 normal 超过宽度自动换行   nowap 不进行包裹，超过宽度仍然不会换行   pre 保持文本原样显示*/
+/*word-break:自动换行  ，normal 浏览器自动换行 不打断单词， break-all 允许单词内换行 keep-all 只有*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
