@@ -117,6 +117,9 @@ span:first-child {
     display: inline-block;
     height: 200px;
     background-color: lime;
+    /*float 浮动，设置浮动后，div会从布局中脱离出来,浮动只有左右浮动*/
+
+    float: left;
 
 }
 .total-p {

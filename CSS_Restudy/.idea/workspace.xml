@@ -18,28 +18,28 @@
       <file leaf-file-name="videoCsslearning.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCsslearning.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+            <state relative-caret-position="112">
+              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lesson.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="47" column="89" lean-forward="false" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="89" />
+            <state relative-caret-position="200">
+              <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="174" column="0" lean-forward="true" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+            <state relative-caret-position="169">
+              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,8 +92,8 @@
         <option value="$PROJECT_DIR$/videoCSS.html" />
         <option value="$PROJECT_DIR$/partThree.css" />
         <option value="$PROJECT_DIR$/videoCsslearning.html" />
-        <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/lesson.html" />
+        <option value="$PROJECT_DIR$/main.css" />
       </list>
     </option>
   </component>
@@ -104,8 +104,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="138" />
+    <option name="x" value="24" />
+    <option name="y" value="37" />
     <option name="width" value="1400" />
     <option name="height" value="756" />
   </component>
@@ -163,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.lesson.html">
+  <component name="RunManager" selected="JavaScript Debug.videoCsslearning.html">
     <configuration default="false" name="videoStudy.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CSS_Restudy/videoStudy.html">
       <method />
     </configuration>
@@ -254,8 +254,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.lesson.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.videoCsslearning.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.videoCsslearning.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.lesson.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.videoCSS.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.videoStudy.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.QQRegiter.html" />
@@ -278,15 +278,15 @@
       <workItem from="1503901758614" duration="355000" />
       <workItem from="1503973112485" duration="10518000" />
       <workItem from="1504446401957" duration="7277000" />
-      <workItem from="1504515880442" duration="6233000" />
+      <workItem from="1504515880442" duration="6927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34665000" />
+    <option name="totallyTimeSpent" value="35359000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="138" width="1400" height="756" extended-state="0" />
+    <frame x="24" y="37" width="1400" height="756" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -546,26 +546,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
+    <entry file="file://$PROJECT_DIR$/lesson.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="174" column="0" lean-forward="true" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/videoCsslearning.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        <state relative-caret-position="112">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson.html">
+    <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="47" column="89" lean-forward="false" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="89" />
+        <state relative-caret-position="169">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
         </state>
       </provider>
