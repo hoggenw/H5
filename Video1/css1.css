@@ -1,0 +1,85 @@
+ul {
+    color: green ;
+}
+div {
+    /*!important 无法影响就近原则*/
+    color: red !important;
+
+}
+
+.box {
+    /*padding区域有颜色*/
+    width: 200px;
+    height: 200px;
+    /*background-color: green;*/
+    /*padding: 100px;*/
+    /*padding-top: 30px;*/
+    /*padding-right: 20px;*/
+    /*padding-bottom: 40px;*/
+    /*padding-left: 100px;*/
+    /*padding: 30px 20px 40px 100px;*/
+    /*padding: 20px 30px 40px;*/
+    /*padding: 30px 40px;*/
+    /*小属相替换大的属性*/
+    padding: 50px;
+    padding-left: 10px;
+    /*边框三要素  宽度 样式 颜色  border-width border-style border-color*/
+    border: 1px solid red;
+    border-right-color: lime;
+    border-left-style: none;
+
+
+}
+
+.image-style {
+    float: left;
+}
+
+
+.box1 {
+    float: left;
+    width: 330px;
+    height: 400px;
+    background-color: yellowgreen;
+}
+
+.box2 {
+    /*float: left;*/
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+}
+
+.span3 {
+    float: left;
+    width: 230px;
+    height: 400px;
+    background-color: silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

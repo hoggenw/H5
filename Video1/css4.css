@@ -1,0 +1,92 @@
+
+/*有浮动必有清楚*/
+*{
+    margin: 0;
+    padding:0;
+}
+/*div {*/
+    /*background-color: yellow;*/
+    /*!*第一个清除浮动影响的方法：父级要有高度，可以清楚父级浮动的效果*!*/
+    /*!*height: 40px;*!*/
+    /*width: 400px;*/
+    /*overflow: hidden;*/
+    /*border: 10px solid black;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+li {
+    float: left;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    background-color: orange;
+}
+/*第二个清楚浮动的方法，clear*/
+/*.box2 {*/
+    /*clear: both;*/
+/*}*/
+.box1 {
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.cl {
+    clear: both;
+}
+.h8 {
+    height: 8px;
+    font-size: 0;
+}
+
+.p1{
+    float: left;
+    width: 100px;
+    height: 150px;
+    background-color: red;
+}
+.p2{
+    float: left;
+    width: 100px;
+    height: 380px;
+    background-color: green;
+}
+.p3{
+    float: left;
+    width: 100px;
+    height: 120px;
+    background-color: blue;
+}
+
+.css4-1-div {
+    width: 300px;
+    height: 250px;
+    padding-top: 50px;
+    background-color: orange;
+}
+.css4-1-p {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+/*标准文档流当中，相邻的竖向的magin 已较大的为准，不叠加*/
+/*如果不在标准流，比如盒子都浮动了，那么两个盒子之间是没有塌陷现象的：*/
+/*margin的值可以为auto，表示自动。当left、right两个方向，都是auto的时候，盒子居中了：*/
+
+
+
+/*第二，IE6不支持用overflow:hidden;来清除浮动的， _zoom:1;overflow:hidden;的本意，
+就是溢出盒子的border的东西隐藏，这个功能是IE6兼容的。不兼容的是overflow:hidden;清除浮动的时候。*/
+/*完整写法：
+overflow: hidden;
+_zoom:1;
+*/
+
+/*注意：
+    1.使用margin：0 auto；的盒子必须有width，有明确的width
+    2.只有标准流的盒子，才能使用margin：0 auto；居中。也就是说，当一个盒子浮动了、绝对定位了、固定定位了，都不能使用margin:0 auto;
+    3.margin：0 atuo；是在居中盒子，不是居中文本。文本的居中要使用text-align:center;
+    margin:0 auto;   → 让这个div自己在大容器中居中。
+    */
+
