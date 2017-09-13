@@ -1,0 +1,28 @@
+
+/*复习
+一、复习
+a标签的伪类4个：
+a:link	没有被点击过的链接
+a:visited	访问过的链接
+a:hover	悬停
+a:active	按下鼠标不松手
+顺序就是“love hate”准则。
+可以简写：
+
+
+background系列属性，CSS2.1层面
+
+
+background-color:red;
+颜色表示法：red、rgb(255,0,0)、#ff0000、#f00
+rgb和十六进制颜色是一样多的，是一一对应的。有换算关系。
+
+background-image:url(images/1.jpg);
+默认是平铺的。
+
+background-repeat:no-repeat;
+ 	重复横向： repeat-x;
+重复纵向： repeat-y;
+不重复：	no-repeat;
+
+*/
