@@ -1,0 +1,25 @@
+.shortCut {
+    height: 30px;
+    line-height: 30;
+    background-color: #f1f1f1;
+}
+
+.dt,
+.shortCut  {
+    padding: 0 20px 0 10px;
+    position: relative;
+}
+.dt, .titleRight {
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.floatRight li {
+    float: left;
+    padding:0 10px;
+}
+
+
+
+
