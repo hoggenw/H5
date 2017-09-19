@@ -1,6 +1,6 @@
 .shortCut {
     height: 30px;
-    line-height: 30;
+    line-height: 30px;
     background-color: #f1f1f1;
 }
 
@@ -13,13 +13,55 @@
     height: 30px;
     line-height: 30px;
 }
+.shortCut .triangle {
+    font: 400 15px/15px "SimSun";
+    position: absolute;
+    /*background-color: green;*/
+    top: 13px;
+    right: 3px;
+    width: 15px;
+    height: 7px;
+    overflow: hidden;
+}
+
+.shortCut s {
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
 
 
 .floatRight li {
     float: left;
     padding:0 10px;
+
+}
+.floatRight .myJd {
+    position: relative;
+    padding: 0 20px 0 10px;
 }
 
+.floatRight .telJd {
+    padding: 0 20px 0 20px;
+}
+.tel {
+    position: absolute;
+    background: url("../images/sprite.png");
+    left: 5px;
+    top: 5px;
+    height: 20px;
+    width: 15px;
+
+}
+
+/*加floatRight 是因为权重问题，否则padding 0 无法生效*/
+.floatRight .lineView {
+    width: 1px;
+    background-color: #ddd;
+    height: 12px;
+    margin-top: 9px;
+    padding: 0;
+}
 
 
 
