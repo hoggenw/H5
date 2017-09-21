@@ -1,3 +1,5 @@
+
+/*顶部start*/
 .shortCut {
     height: 30px;
     line-height: 30px;
@@ -62,6 +64,72 @@
     margin-top: 9px;
     padding: 0;
 }
+/*顶部end*/
 
+/*topbanner start*/
+.topBanner {
+    background-color: #8a25c6;
+}
+.topb {
+    position: relative;
+}
+.close-banner {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 19px;
+    height: 19px;
+    background: url("../images/close.png") no-repeat;
+}
+.close-banner:hover {
+    background-position: bottom;
+}
+/*topbanner end*/
 
+/*<!--搜索部分-->*/
+.logo {
+    float: left;
+    background: url("../images/logo.png") no-repeat 0 25px;
+    width: 360px;
+    height: 75px;
+    padding-top: 25px;
+    position: relative;
+    background-color: white;
+}
 
+.jd_a {
+    display: block;
+    width: 270px;
+    height: 60px;
+    text-indent: -2000em;
+}
+
+.db11 {
+    position: absolute;
+    top: 10px;
+    left: 168px;
+    background: white;
+    width: 180px;
+    height: 80px;
+}
+
+.search {
+    width: 538px;
+    height: 35px;
+    background-color: purple;
+    float: left;
+    padding-top: 25px;
+}
+
+.cart {
+    width: 96px;
+    padding-left: 43px;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    height: 34px;
+    background-color: blue;
+    float: right;
+    margin: 25px 65px 0 0;
+}
+
+/*搜索部分结束*/
