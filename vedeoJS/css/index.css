@@ -116,20 +116,70 @@
 .search {
     width: 538px;
     height: 35px;
-    background-color: purple;
+    background-color: white;
     float: left;
     padding-top: 25px;
 }
+
+.search input {
+    width: 450px;
+    height: 32px;
+    border: 2px solid #B61D1D;
+    color: #666;
+    font: 14px/32px "microsoft yahei";
+    padding-left: 4px;
+    float: left;
+}
+
+.search button {
+    width: 80px;
+    height: 36px;
+    float: left;
+    background-color: #B61D1D;
+    cursor: pointer; /* 鼠标变成小手*/
+    font: 16px/36px "microsoft yahei";
+    color: #fff;
+}
+
 
 .cart {
     width: 96px;
     padding-left: 43px;
     position: relative;
-    border: 1px solid #dfdfdf;
     height: 34px;
-    background-color: blue;
+    line-height: 34px;
+    border: 1px solid #DFDFDF;
     float: right;
     margin: 25px 65px 0 0;
+}
+
+.icon1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 16px;
+    height: 13px;
+    background: url("../images/sprite.png") no-repeat -1px -59px;
+}
+
+.icon2 {
+    font: 400 13px/13px simsun;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.icon3 {
+    position: absolute;
+    height: 14px;
+    width: 16px;
+    background-color: #C81623;
+    line-height: 14px;
+    text-align: center;
+    color: #ffffff;
+    top: -4px;
+    font-size: 12px;
+    border-radius: 7px 7px 7px 0;
 }
 
 /*搜索部分结束*/
