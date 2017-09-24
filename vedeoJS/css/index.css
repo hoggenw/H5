@@ -182,4 +182,19 @@
     border-radius: 7px 7px 7px 0;
 }
 
+.howWords {
+    float: left;
+    width: 530px;
+    padding: 7px 0;
+}
+
+.howWords a {
+    padding-right: 6px;
+}
+
 /*搜索部分结束*/
+
+
+/*底部 部分 start*/
+
+/*底部 部分 end*/
