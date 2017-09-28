@@ -196,6 +196,10 @@
 
 
 /*底部 部分 start*/
+.jd-footer {
+
+}
+
 .slogen {
     height: 54px;
     padding: 20px;
@@ -204,4 +208,41 @@
     margin-bottom: 15px;
 }
 
+.spanItem {
+    width: 302px;
+    top: 20px;
+    position: absolute;
+    left: 50%;
+}
+.slogen1 {
+    margin-left: -608px;
+}
+
+.slogen2 {
+    margin-left: -304px;
+}
+
+.slogen3 {
+    margin-left: 2px;
+}
+
+.slogen4 {
+    margin-left: 304px;
+}
+
+
+.service dt {
+    font-size: 14px;
+    height: 28px;
+    font-family: "Microsoft Sans Serif";
+}
+
+.service dl {
+    width: 198px;
+    float: left;
+}
+
+.service dd {
+    height: 18px;
+}
 /*底部 部分 end*/
