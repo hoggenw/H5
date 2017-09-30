@@ -231,18 +231,37 @@
 }
 
 
-.service dt {
+.shopping dt ,
+.selfSell dt
+{
     font-size: 14px;
     height: 28px;
     font-family: "Microsoft Sans Serif";
 }
 
-.service dl {
+.shopping dl
+
+{
     width: 198px;
     float: left;
+    margin-top: 10px;
 }
-
-.service dd {
+.selfSell dd,
+.shopping dd
+{
     height: 18px;
 }
+
+.selfSell {
+    width: 210px;
+    float: left;
+    height: 168px;
+    margin-top: 10px;
+    background: url("../images/china.png") no-repeat left bottom;
+}
+.selfSell p {
+    line-height: 18px;
+    margin-top: 10px;
+}
+
 /*底部 部分 end*/
