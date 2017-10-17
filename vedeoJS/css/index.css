@@ -293,7 +293,7 @@
 
 .dropDown {
     width: 220px;
-    height: 44px;
+    height: 46px;
     float: left;
     background-color: #b1191a;
     position: relative;
@@ -309,16 +309,33 @@
     width: 220px;
     line-height: 44px;
     padding-left: 10px;
+    padding-top: 0px;
 }
 .dropDown dt a {
     display: block;
-    height: 44px;
+    height: 46px;
     color: white;
 }
 
 .dropDown dd {
     height: 465px;
     background-color: #C81623;
+}
+
+.dropDown .choiceItems {
+    height: 31px;
+    border-left: 1px solid #b1191a;
+    color: white;
+    font:400 15px/31px "微软雅黑" ;
+    padding-left: 10px;
+}
+.dropDown .choiceItems h3 {
+    float: left;
+}
+.dropDown .choiceItems span {
+    float: right;
+    padding-right: 15px;
+    font:700 17px/31px "微软雅黑" ;
 }
 
 .navItems {
