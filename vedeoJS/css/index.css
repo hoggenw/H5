@@ -387,6 +387,25 @@
     background: url("../images/banner.jpg") no-repeat top center;
 }
 
+.main {
+    position: relative;
+
+}
+.silder {
+    width: 730px;
+    height: 453px;
+    margin: 12px 0 0 230px;
+    background-color: pink;
+    float: left;
+}
+
+.news {
+    width: 238px;
+    height: 451px;
+    border: 1px solid #e4e4e4;
+    float: right;
+    margin-top: 12px;
+}
 
 
 
