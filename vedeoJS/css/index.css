@@ -400,6 +400,25 @@
     position: relative;
 }
 
+.arrowLeft, .arrowRight {
+    height: 62px;
+    width: 28px;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    font: 500 18px/62px "宋体";
+    text-align:  center;
+
+}
+.arrowRight {
+    right: 0;
+}
+.arrowLeft {
+    left: 0;
+}
+
 .circle {
     position: absolute;
     bottom: 8px;

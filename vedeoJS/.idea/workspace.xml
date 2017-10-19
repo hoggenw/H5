@@ -20,8 +20,8 @@
             <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/03 css 实战3/03-前端基本功-css 实战3/案例/京东网页/index.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="285">
-                    <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+                  <state relative-caret-position="-4">
+                    <caret line="196" column="16" lean-forward="true" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
                     <folding />
                   </state>
                 </provider>
@@ -58,8 +58,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="177" column="6" lean-forward="true" selection-start-line="177" selection-start-column="6" selection-end-line="177" selection-end-column="6" />
+            <state relative-caret-position="350">
+              <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#708#714#0" expanded="true" />
@@ -86,8 +86,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="358" column="30" lean-forward="true" selection-start-line="358" selection-start-column="30" selection-end-line="358" selection-end-column="30" />
+            <state relative-caret-position="394">
+              <caret line="419" column="1" lean-forward="true" selection-start-line="419" selection-start-column="1" selection-end-line="419" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -311,15 +311,15 @@
       <workItem from="1505359201183" duration="5483000" />
       <workItem from="1505439646089" duration="8495000" />
       <workItem from="1505786526714" duration="17063000" />
-      <workItem from="1507985696338" duration="10924000" />
+      <workItem from="1507985696338" duration="11814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41965000" />
+    <option name="totallyTimeSpent" value="42855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="160" width="1400" height="756" extended-state="1" />
+    <frame x="86" y="160" width="1400" height="756" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -630,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="177" column="6" lean-forward="true" selection-start-line="177" selection-start-column="6" selection-end-line="177" selection-end-column="6" />
+        <state relative-caret-position="350">
+          <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#708#714#0" expanded="true" />
@@ -644,18 +644,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/03 css 实战3/03-前端基本功-css 实战3/案例/京东网页/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="358" column="30" lean-forward="true" selection-start-line="358" selection-start-column="30" selection-end-line="358" selection-end-column="30" />
+        <state relative-caret-position="-4">
+          <caret line="196" column="16" lean-forward="true" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/03 css 实战3/03-前端基本功-css 实战3/案例/京东网页/index.html">
+    <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="394">
+          <caret line="419" column="1" lean-forward="true" selection-start-line="419" selection-start-column="1" selection-end-line="419" selection-end-column="1" />
           <folding />
         </state>
       </provider>
