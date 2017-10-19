@@ -397,7 +397,32 @@
     margin: 12px 0 0 230px;
     background-color: pink;
     float: left;
+    position: relative;
 }
+
+.circle {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -66px;
+}
+
+.circle li {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3e3e3e;
+    text-align: center;
+    float: left;
+    color: white;
+    margin: 0 2px 0 2px;
+    line-height: 18px;
+    cursor: pointer;
+}
+.circle li.currenCircle {
+    background-color: #b61b1f;
+}
+
 
 .news {
     width: 238px;
