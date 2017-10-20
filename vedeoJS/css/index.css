@@ -406,7 +406,7 @@
     position: absolute;
     top: 50%;
     margin-top: -31px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.2);
     color: white;
     font: 500 18px/62px "宋体";
     text-align:  center;
@@ -417,6 +417,10 @@
 }
 .arrowLeft {
     left: 0;
+}
+.arrowLeft:hover,.arrowRight:hover {
+    color: white;
+    background: rgba(0,0,0,0.4);
 }
 
 .circle {
@@ -444,20 +448,130 @@
 
 
 .news {
-    width: 238px;
+    width: 236px;
     height: 451px;
     border: 1px solid #e4e4e4;
     float: right;
     margin-top: 12px;
+    position: relative;
+}
+
+.jdNews {
+    height: 200px;
+    border-bottom: 1px dashed #e8e8e8;
+}
+.jdNews dt {
+    height: 43px;
+    border-bottom: 1px dotted #e8e8e8;
+    text-align: center;
+}
+
+.jdNews dd ul {
+    padding-top: 8px;
+}
+.jdNews dd li{
+    padding-left: 15px;
+    height: 30px;
+}
+.jdNews dd span{
+    padding-right: 4px;
+    font-weight: 700;
+}
+
+.jdNews dt span, .jdLife dt span{
+    float: left;
+    margin-left: 15px;
+    font: 400 15px/43px "微软雅黑";
+}
+
+.jdNews dt a {
+    float: right;
+    margin-right: 15px;
+    font: 500 15px/43px "微软雅黑";
+}
+
+.jdLife {
+    height: 251px;
+    overflow: hidden;
+}
+
+.jdLife dt {
+    height: 43px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.jdLife dd li {
+    width: 58px;
+    height: 68px;
+    float: left;
+    border-bottom: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+
+.jdLife dd a {
+    width: 58px;
+    height: 68px;
+    position: absolute;
+    display: block;
+
+}
+
+.jdLife dd i {
+    background: url("../images/icon_lifeserv.png") no-repeat right top;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 12px;
+    left: 18px;
+}
+.jdLife dd span {
+    top: 45px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.jdLife .deliver {
+    background: url("../images/song.png") no-repeat top right;
 }
 
 
+/*某个模块 开始*/
 
+.activityFirst {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.partone {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
 
+.partLeft {
+    float: left;
+}
 
+.partright {
+    width: 1000px;
+    height: 150px;
+    float: right;
+    background-color: white;
 
+}
+.partright ul {
+    width: 1008px;
 
+}
+.partright li {
+    float: right;
+    margin-right: 2px;
+
+}
+
+/*某个模块 结束*/
 
 
 
