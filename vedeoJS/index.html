@@ -5,7 +5,10 @@
     <link href="css/base.css" rel="stylesheet" type="text/css">
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="script" href="js1.js">
     <title>不是所有的页面都叫叮咚</title>
+
+
 </head>
 <body>
 <!--头部导航栏开始-->
@@ -59,12 +62,22 @@
     </div>
 <!--头部导航栏结束-->
 <!--京东的topbanner部分-->
-    <div class="topBanner">
+    <div class="topBanner" id="top_Banner">
         <div class="Width topb">
             <img src="images/topbanner.jpg" alt="不说点什么吗">
-            <a href="javascript:" class="close-banner"></a>
+            <a href="javascript:" class="close-banner" id="topBananerClose"></a>
         </div>
     </div>
+ <script>
+
+    let topBannerClose = document.getElementById("topBananerClose");
+    let top_Banner = document.getElementById("top_Banner");
+    topBannerClose.onclick = function () {
+        top_Banner.style.display = "none";
+
+    };
+ </script>
+
 <!--搜索部分-->
     <div class="Width clearfix">
         <div class="logo">
@@ -163,14 +176,14 @@
 
 <div class="Width main clearfix">
     <div class="silder">
-        <a href="#"> <img src="images/slider1.jpg" alt="none"></a>
+        <a href="#"> <img src="images/slider1.jpg" alt="none" id="bannerImageView"></a>
         <ul class="circle">
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li class="currenCircle">6</li>
+            <li id="image1" >1</li>
+            <li id="image2">2</li>
+            <li id="image3">3</li>
+            <li id="image4">4</li>
+            <li id="image5">5</li>
+            <li id="image6" class="currenCircle">6</li>
         </ul>
 
         <div class="arrow">
