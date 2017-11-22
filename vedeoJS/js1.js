@@ -68,4 +68,10 @@ window.onload = function () {
         console.log("点击登录消失");
         mask.style.display = "none";
     };
+
+    // function creatFunction() {
+    //     alert("自定义函数");
+    // };
+    //
+    // creatFunction();
 };
