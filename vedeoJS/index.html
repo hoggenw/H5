@@ -2,11 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script type="text/javascript" src="js1.js"></script>
     <link href="css/base.css" rel="stylesheet" type="text/css">
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="images/favicon.ico">
-    <script type="text/javascript" src="js1.js"></script>
+
     <title>不是所有的页面都叫叮咚</title>
+    <script>
+        window.onload = function () {
+
+            let searchInput = document.getElementById("searchInput");
+            searchInput.onfocus = function () {
+                console.log("得到焦点");
+                if (searchInput.value === "图书开枪") {
+                    searchInput.value = "";
+                    searchInput.style.color = "#333";
+                }
+            };
+            searchInput.onblur =function () {
+                console.log("失去焦点");
+                if (searchInput.value === "") {
+                    searchInput.value = "图书开枪";
+                    searchInput.style.color = "#333";
+                }
+            };
+        }
+    </script>
 
 
 </head>
@@ -88,7 +109,7 @@
             </div>
         </div>
         <div class="search">
-            <input type="text" name="" id="" value="图书开枪">
+            <input type="text" name="" id="searchInput" value="图书开枪"/>
             <button>搜索</button>
         </div>
         <div class="cart">

@@ -5,6 +5,46 @@
     <title>mouseHTML</title>
     <link rel="stylesheet" href="mouseCSS.css">
     <script type="text/javascript" src="mouseJS.js"></script>
+    <script>
+        window.onload = function () {
+            let searchInput = document.getElementById("input2txt");
+            let searchInput2 = document.getElementById("input2");
+            searchInput.focus();//自动获得焦点
+            let list = document.getElementsByTagName("input");
+            for (var i = 0; i<list.length;i++) {
+                list[i].value = "";
+            }
+            searchInput2.onmouseover = function () {
+                this.select();
+            };
+            searchInput.oninput = searchInput.onpropertychange = function () {
+                if (this.value === "") {
+                    document.getElementById("message").style.display = "block";
+                }else {
+                    document.getElementById("message").style.display = "none";
+                }
+            };
+            searchInput.onfocus  =  function () {
+                if (this.value === "请输入...") {
+                    this.value = "";
+                    this.style.color = "#333";
+                }
+//                for (var i = 0; i<= 100; i++) {
+//                    console.log(i);
+//                    document.write(i);
+//                }
+
+            };
+            searchInput.onblur = function () {
+                console.log("失去焦点");
+                if (this.value === "") {
+                    this.value = "";
+                    this.style.color = "#ccc";
+                }
+            };
+        };
+
+    </script>
 </head>
 <body>
   <div id="box">
@@ -22,7 +62,32 @@
     <input type="text" id="input2" value="请输入。。。"/> <button id="findButton">查询</button>
 </div>
 
+  <div class="search">
+      <input type="text" value="" id="input2txt"/>
+      <label for="input2txt" id="message">需要输入的内容</label>
+      <button></button>
+  </div>
+
 
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

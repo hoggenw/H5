@@ -30,3 +30,62 @@ ul {
     margin: 0 0 0 0 ;
 }
 
+.search {
+    width: 258px;
+    height: 40px;
+    margin: 100px auto;
+    background-color: pink;
+    position: relative;
+}
+
+
+
+.search input {
+    width: 208px;
+    height: 40px;
+    background: url("../images/left.jpg") no-repeat;
+    outline-style: none;
+    padding-left: 8px;
+    color: #ccc;
+    float: left;
+    border: 0 none;
+
+}
+
+.search label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #ccc;
+}
+
+.search button {
+    height: 40px;
+    width: 42px;
+    background: url("../images/right.jpg") no-repeat;
+    float: left;
+    cursor: pointer;
+    border: 0 none;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
