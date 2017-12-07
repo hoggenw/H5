@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Test Js</title>
-    <link rel="stylesheet" href="jsTest.css">
+    <!--<link rel="stylesheet" href="jsTest.css">-->
     <link rel="script" href="jsTest.js">
+    <style>
+
+        .box {
+            width: 400px;
+            margin: 100px auto;
+            border: 1px solid #cccccc;
+        }
+
+        .bottom div{
+            width: 100%;
+            height: 300px;
+            background-color: pink;
+            display: none;
+
+        }
+        .demoPink {
+            background-color: pink;
+        }
+    </style>
     <script type="text/javascript">
+        window.onload = function () {
+            var btns = document.getElementsByTagName("button");
+            var parts = document.getElementById("divs").getElementsByTagName("div");
+            for (var  i = 0 ; i < parts.length; i++) {
+                parts[i].index = i;
+            }
+            //var inputs = document.getElementsByTagName("input");
+//            btns[0].onclick = function () {
+//                for (var  i = 0 ; i < inputs.length; i++) {
+//                    inputs[i].checked = true;
+//                }
+//            };
+//
+//            btns[2].onclick = function () {
+//                for (var  i = 0 ; i < inputs.length; i++) {
+//                    inputs[i].checked = !inputs[i].checked;
+//                }
+//            };
+//            btns[1].onclick = function () {
+//                for (var  i = 0 ; i < inputs.length; i++) {
+//                    inputs[i].checked = false;
+//                }
+//            };
+
+            for (var  i = 0 ; i < btns.length; i++) {
+                    btns[i].index = i;
+                    btns[i].onclick = function () {
+                        for (var  i = 0 ; i < btns.length; i++) {
+                            btns[i].className = "";
+                            parts[i].style.display = "none";
+                        }
+                        this.className = "demoPink";
+
+                        parts[this.index].style.display = "block";
+                    };
+                }
+        }
+
         //弹框
         //alert("从前有座山");
         //控制台输出
@@ -20,13 +77,47 @@
     </script>
 </head>
 <body>
-    <div id="demo">
+    <!--<div id="top">-->
+        <!--<button>全选</button>-->
+        <!--<button>取消</button>-->
+        <!--<button>反选</button>-->
 
+    <!--</div>-->
+
+    <!--<div class="bottom">-->
+        <!--<ul>-->
+            <!--<li>选项: <input type="checkbox" /> </li>-->
+            <!--<li>选项: <input type="checkbox" /> </li>-->
+            <!--<li>选项: <input type="checkbox" /> </li>-->
+            <!--<li>选项: <input type="checkbox" /> </li>-->
+            <!--<li>选项: <input type="checkbox" /> </li>-->
+            <!--<li>选项: <input type="checkbox" /> </li>-->
+            <!--<li>选项: <input type="checkbox" /> </li>-->
+            <!--<li>选项: <input type="checkbox" /> </li>-->
+            <!--<li>选项: <input type="checkbox" /> </li>-->
+
+
+        <!--</ul>-->
+    <!--</div>-->
+
+    <div class="box">
+        <div>
+            <button>第一个</button>
+            <button>第二个</button>
+            <button>第三个</button>
+            <button>第四个</button>
+            <button>第五个</button>
+        </div>
     </div>
 
-    <div class="test">
-
+    <div class="bottom" id="divs">
+        <div style="display: block">1号盒子</div>
+        <div>2号盒子</div>
+        <div>3号盒子</div>
+        <div>4号盒子</div>
+        <div>5号盒子</div>
     </div>
+
     <script>
 //        document.getElementById("demo").style.width = "200px";
 //        document.getElementById("demo").style.height = "300px";
