@@ -3,9 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <title>12.11</title>
+    <style>
+        /*body {*/
+            /*background-color: pink;*/
+        /*}*/
+        div {
+            width: 300px;
+            height: 100px;
+            background-color: pink;
+            margin: 10px;
+        }
+        
+
+    </style>
+
+    <script>
+        window.onload = function ( ) {
+            function getClass(className) {
+
+//                if (document.getElementsByClassName) {//判断支持否
+//                    return document.getElementsByClassName(className);
+//                }
+                var  array = [];
+                var dom = document.getElementsByTagName("*");
+
+                for (var  i = 0; i < dom.length; i ++) {
+                    var texts = dom[i].className.split(" ");//分割类名并转化为数组
+                    if (dom[i].className === className){
+                        array.push(dom[i]);
+                    }
+                }
+                return array;
+
+
+            }
+            console.log( "length" +  getClass("demo").length);
+
+//            var select = document.getElementById("selec");
+//            select.onchange = function () {
+//
+//                switch (this.value) {
+//                    case "1":
+//                        document.body.style.backgroundColor = "pink";
+//                        console.log(this.value);
+//                        break;
+//                    case "2":
+//                        document.body.style.backgroundColor = "#cccccc";
+//                        console.log(this.value);
+//                        break;
+//                    case "3":
+//                        document.body.style.backgroundColor = "#B61D1D";
+//                        console.log(this.value);
+//                        break;
+//                    case "4":
+//                        document.body.style.backgroundColor = "#8a25c6";
+//                        console.log(this.value);
+//                        break;
+//                    default:
+//                        console.log("wrong");
+//                        break;
+//                }
+//
+//            };
+
+            var  array = [1,2,3];
+            console.log(array + "10");
+
+            array.push(7);
+            console.log(array);
+            array.push(8,9);
+            console.log(array);
+
+            array.unshift(20,19);
+            console.log(array);
+
+            console.log("===删除===");
+            array.pop();//删除最后一个元素
+            console.log(array);
+            array.shift();//删除第一个元素
+            console.log(array);
+
+//            concat()
+//            该方法用于连接两个或多个数组。它不会改变现有的数组，而仅仅会返回被连接数组的一个副本
+            var domArray = [10,11,12];
+            var world = ["q"];
+            console.log(array.concat(domArray).concat(world));
+            //join() 把数组转换为字符串
+            console.log(array.join("-"));
+            //把字符串转换为数组  split()
+            //语法
+            //stringObject.split(separator,howmany)
+            //参数 separator 可选。指定要使用的分隔符。如果省略该参数，则使用逗号作为分隔符。
+            //howmany 可选。该参数可指定返回的数组的最大长度
+            var string = "11-22-33-44-55";
+            var result  = string.split("-");
+            console.log(result);
+
+        }
+    </script>
 </head>
 <body>
+<!--<select name="" id="selec">-->
+    <!--<option value="1">春意绵绵</option>-->
+    <!--<option value="2">夏意绵绵</option>-->
+    <!--<option value="3">秋意绵绵</option>-->
+    <!--<option value="4">东意绵绵</option>-->
 
+
+<!--</select>-->
+
+<div class="demo"></div>
+<div class="demo text"></div>
+<div class="demo"></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
 
 </body>
 </html>
