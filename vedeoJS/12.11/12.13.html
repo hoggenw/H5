@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1213</title>
+    <style>
+        .clock {
+            width: 600px;
+            height: 600px;
+            margin: 50px auto;
+            background: url("../images/clock.jpg") no-repeat;
+        }
+
+        .clock div {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+        .hour {
+            background: url("../images/hour.png") no-repeat center;
+        }
+        .minute {
+            background: url("../images/minute.png") no-repeat center;
+        }
+        .second {
+            background: url("../images/second.png") no-repeat center center;
+        }
+
+
+    </style>
+
+    <script>
+        window.onload = function () {
+//            let hour = document.getElementById("hour");
+//            let minute = document.getElementById("minute");
+//            let second = document.getElementById("second");
+//
+//            var seconds = 0, minutes = 0 , hours = 0;
+//            setInterval(function () {
+//                let date = new Date();
+//                seconds = date.getSeconds();
+//                minutes = date.getMinutes() + seconds / 60;
+//                hours = date.getHours() % 12 + minutes / 60;
+//
+//                second.style.WebkitTransform = "rotate("+ seconds*6 +"deg)";
+//                minute.style.webkitTransform = "rotate("+ minutes*6 +"deg)";
+//                hour.style.webkitTransform = "rotate("+ hours*30 +"deg)";
+//
+//                second.style.mozTransform = "rotate("+ seconds*6 +"deg)";
+//                minute.style.mozTransform = "rotate("+ minutes*6 +"deg)";
+//                hour.style.mozTransform = "rotate("+ hours*30 +"deg)";
+//
+//            },1000);
+            let btn = document.getElementById("btn");
+            var count = 5;  // 数据的 10s
+            var timer = null; // 定时器的名字
+            btn.onclick = function() {
+                console.log("点击");
+                this.disabled = true;
+                let that = this;
+                timer = setInterval(sendTextMessang,1000);
+
+                function sendTextMessang() {
+                    count -- ;
+                    if (count > 0) {
+                        that.innerHTML  = "还剩余"+count+"秒";
+                    }else  {
+                        that.innerHTML = "重新发送短信";
+                        that.disabled = false;
+                        clearInterval(timer);
+                        count = 5;
+
+                    }
+
+                }
+
+
+            }
+
+        };
+
+
+
+    </script>
+
+</head>
+<body>
+<input type="text"/>
+<button id="btn">点击发送短信</button>
+<!--<div class="clock" id="clock">-->
+    <!--<div class="hour" id="hour"></div>-->
+    <!--<div class="minute" id="minute"></div>-->
+    <!--<div class="second" id="second"></div>-->
+
+<!--</div>-->
+
+
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+        }
+
+        .box {
+            margin: 100px auto;
+            width: 600px;
+            border: 1px solid #333;
+
+        }
+        textarea {
+            margin-top: 5px;
+            width: 450px;
+            resize: none;/*防止用户拖动*/
+        }
+        .box li {
+            width: 450px;
+            line-height: 30px;
+            border-bottom: 1px dashed #ccc;
+            margin-left: 80px;
+        }
+
+
+        .box li a{
+
+            line-height: 30px;
+
+            float: right;
+        }
+
+        .box2 {
+            width: 150px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto;
+        }
+        .box2 p {
+            text-align: center;
+            line-height: 80px;
+            font-size: 12px;
+            color: #fff;
+
+        }
+
+        .box2 span {
+            display: block;
+            width: 120px;
+            height: 75px;
+            margin: 0 auto;
+            font-size: 50px;
+            color: #cccccc;
+            background-color: yellow;
+            line-height: 75px;
+            text-align: center;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+
+
+                var endtime = new Date("2018/12/12");
+                var date2 = document.getElementById("date");
+                var boys = date2.children;
+                var nowDate = new Date();
+                boys[1].innerHTML = nowDate.getSeconds();
+                boys[0].innerHTML = nowDate.getFullYear()  + "-" + nowDate.getMonth() + "-" + nowDate.getDate() + "   星期" + nowDate.getDay();
+
+                setInterval(fn,1000);
+
+                function fn() {
+                    var nowDate = new Date();
+                    var ms = parseInt((endtime.getTime() - nowDate.getTime()) / 1000 / 3600 / 24);
+                    boys[1].innerHTML =  ms //nowDate.getSeconds();
+                }
+
+               // var box = document.ge
+                var button = document.getElementsByTagName("button")[0];
+                var value = document.getElementsByTagName("textarea")[0];
+                var array = [1,2,3,4];
+                var ul = document.createElement("ul");
+                button.parentNode.appendChild(ul);
+                button.onclick = function () {
+                    if (value.value === "") {
+                        alert("输入内容不能为空");
+                        return false;
+                    }
+                    var lis = document.createElement("li");
+                    lis.innerHTML = value.value + "<a href= 'javascript:;'>删除</a> ";
+                    value.value = "";
+                    arrayLi = ul.children;
+                    if (arrayLi.length === 0) {
+                        ul.appendChild(lis);
+                    }else  {
+                        ul.insertBefore(lis,arrayLi[0]);
+                    }
+
+
+                    var as = document.getElementsByTagName("a");
+                    for (var i = 0; i < as.length; i ++) {
+                        as[i].onclick = function () {
+                            ul.removeChild(this.parentNode);
+                        }
+                    };
+
+
+                }
+                var date = new Date();
+                console.log(date);
+                //毫秒数
+                 console.log("毫秒数  " + date.valueOf());//date.getTime()
+                console.log("当前时间秒数  " + date.getSeconds());//
+                console.log("当前时间小时数  " + date.getHours());
+
+
+
+
+//            var demo = document.getElementById("demo");
+//            var button  = document.getElementsByTagName("button")[0];
+//            var index = 0;
+//            button.onclick  = function () {
+//                var li = document.createElement("li");
+//                li.innerHTML = "新加信息" + index++;
+//                demo.appendChild(li);
+//                demo.parentNode.appendChild(demo.cloneNode(true));
+//            }
+
+
+        }
+    </script>
+
+</head>
+<body>
+<div class="box2" id="date">
+    <p></p>
+    <span></span>
+
+</div>
+
+<!--<div class="box">-->
+    <!--微博发布：<textarea name="" id="" cols="30" rows="10"></textarea> <button>发布</button>-->
+    <!--&lt;!&ndash;<ul>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li>123</li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li>123</li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li>123</li>&ndash;&gt;-->
+    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+<!--</div>-->
+<!--<button>点击</button>-->
+    <!--<ul id="demo">-->
+
+    <!--</ul>-->
+
+</body>
+</html>

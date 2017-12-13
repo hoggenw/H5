@@ -19,25 +19,44 @@
 
     <script>
         window.onload = function ( ) {
-            function getClass(className) {
+            var demo = document.getElementById("demo");
+            var childerns = demo.children;
+
+            //创建节点
+            var firstDiv = document.createElement("div");
+            //插入节点
+            //demo.appendChild(firstDiv); //后面
+            //插入节点，必写两个参数;
+            demo.insertBefore(firstDiv,childerns[0]);
+            //删除节点
+            demo.removeChild(childerns[0]);
+
+            //clone节点
+            //括号里面可以跟参数  ， 如果 里面是 true  深层复制， 除了复制本盒子，还复制子节点
+            //如果为 false  浅层复制   只复制   本节点  不复制 子节点
+            demo.appendChild( childerns[0].cloneNode(true));
+            demo.parentNode.appendChild(demo.cloneNode(true));
+
+//            function getClass(className) {
 
 //                if (document.getElementsByClassName) {//判断支持否
 //                    return document.getElementsByClassName(className);
 //                }
-                var  array = [];
-                var dom = document.getElementsByTagName("*");
-
-                for (var  i = 0; i < dom.length; i ++) {
-                    var texts = dom[i].className.split(" ");//分割类名并转化为数组
-                    if (dom[i].className === className){
-                        array.push(dom[i]);
-                    }
-                }
-                return array;
-
-
-            }
-            console.log( "length" +  getClass("demo").length);
+//                var  array = [];
+//                var dom = document.getElementsByTagName("*");
+//
+//
+//                for (var  i = 0; i < dom.length; i ++) {
+//                    var texts = dom[i].className.split(" ");//分割类名并转化为数组
+//                    if (dom[i].className === className){
+//                        array.push(dom[i]);
+//                    }
+//                }
+//                return array;
+//
+//
+//            }
+//            console.log( "length" +  getClass("demo").length);
 
 //            var select = document.getElementById("selec");
 //            select.onchange = function () {
@@ -103,6 +122,12 @@
     </script>
 </head>
 <body>
+<div id="demo">
+    <div id="er">
+
+    </div>
+
+</div>
 <!--<select name="" id="selec">-->
     <!--<option value="1">春意绵绵</option>-->
     <!--<option value="2">夏意绵绵</option>-->
@@ -112,16 +137,16 @@
 
 <!--</select>-->
 
-<div class="demo"></div>
-<div class="demo text"></div>
-<div class="demo"></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+<!--<div class="demo"></div>-->
+<!--<div class="demo text"></div>-->
+<!--<div class="demo"></div>-->
+<!--<div></div>-->
+<!--<div></div>-->
+<!--<div></div>-->
+<!--<div></div>-->
+<!--<div></div>-->
+<!--<div></div>-->
+<!--<div></div>-->
 
 </body>
 </html>

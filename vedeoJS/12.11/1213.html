@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1213</title>
+    <style>
+        .xiaomi {
+            width: 512px;
+            height: 512px;
+            border: 1px solid #f00;
+            margin: 100px auto;
+            overflow: hidden;
+            position: relative;
+
+        }
+        .xiaomi span {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            height: 200px;
+            cursor: pointer;
+        }
+        .up {
+            top: 0;
+        }
+
+        .down {
+            bottom: 0;
+        }
+
+        #pic {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="xiaomi" id="demo">
+    <img src="../images/mi.png" alt="" id="pic">
+    <span id="up" class="up">
+
+    </span>
+    <span id="down" class="down">
+
+    </span>
+</div>
+</body>
+</html>
+
+<script>
+    var demo = document.getElementById("demo");
+    var picture = document.getElementById("pic");
+    var up = document.getElementById("up");
+    var down = document.getElementById("down");
+    var num = 0;
+    var timer = null
+//    up.onmouseover = function () {
+//        clearInterval(timer);
+//        timer = setInterval(move(-speed),30);
+//    };
+    up.onmouseover = function(){
+        // alert(11);
+        clearInterval(timer);
+        timer =  setInterval(function(){
+            num -= 3;
+            num >= -970 ? picture.style.top = num + "px" :  clearInterval(timer);
+
+        },30);
+    };
+
+    down.onmouseover = function(){
+        // alert(11);
+        clearInterval(timer);
+        timer =  setInterval(function(){
+            num += 3;
+            num <= 0 ? picture.style.top = num + "px" :  clearInterval(timer);
+
+        },30);
+    };
+
+    demo.onmouseout = function () {
+        clearInterval(timer);
+    }
+
+    var tex = 12436;
+
+    console.log(typeof tex + "");
+    console.log(typeof String(tex));
+    console.log(typeof tex.toString());
+    console.log(tex.toString(2));//转换为2进制
+
+    var text= "da撒实打实";
+
+
+    console.log(text.charAt(1));
+    console.log(text.charAt(2));
+
+    //unicode编码
+    console.log(text.charCodeAt(1));
+    console.log(text.charCodeAt(2));
+
+
+    var url = "http://www.itast.cn?name=cz";
+    console.log("编码  " + encodeURIComponent(url));
+    console.log("解码  " + decodeURIComponent(url));
+
+    //字符串
+    var nameSting = "王者荣耀把秋天首付款";
+    var anyString = "sadasfafafas";
+
+    console.log("concat   " + anyString.concat(nameSting));
+
+    console.log("截取字符串 slice\n\n");
+
+    console.log(nameSting + "  3  " + nameSting.slice(3) + "  3到6  " + nameSting.slice(3,6));
+    console.log(nameSting + "  -3  " + nameSting.slice(-3) + "  -6到-3  " + nameSting.slice(-6,-3));
+
+    console.log("\n\n" + " substr(起始位置,[取的个数])  不写取的个数， 默认从起始位置一直取到最后 。取的个数：    是指从起始位置开始，往后面数几个。" + "\n\n")
+
+
+    console.log(nameSting  + "  (1,3)  "+nameSting.substr(1,3) + " (1)  " + nameSting.substr(1));
+
+    console.log("\n\n" + "substring 始终会把  小的值作为  起始位置 大的值作为结束位置  例如：  substring(6,3)   实际中   自动变成  substring(3,6); "+ "\n\n");
+
+
+
+//    var count = 5;
+//    var speed = 1000;
+//    setTimeout(goIndexPage,speed);
+//
+//    function goIndexPage() {
+//        demo.innerHTML = "<a href='https://www.baidu.com'>本页面将在"+count+"秒钟之后跳转页面</a>";
+//        console.log(count);
+//        count--;
+//        if (count < 0) {
+//            window.location.href = "https://www.baidu.com";
+//        }else  {
+//           // setTimeout(goIndexPage,speed);
+//            //等同于
+//            setTimeout(arguments.callee,speed);
+//        }
+//
+//    }
+</script>
