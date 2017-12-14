@@ -123,9 +123,18 @@
 
     console.log("\n\n" + "substring 始终会把  小的值作为  起始位置 大的值作为结束位置  例如：  substring(6,3)   实际中   自动变成  substring(3,6); "+ "\n\n");
 
+    var number=   122340.12345;
+
+    console.log("\n\n" + "1.通过 indexOf  返回小数点的位置     截取字符串  \n 2.先乘以100  取整  然后 除以100  \n 3.toFixed(2)  保留 2位 小数  "+ "\n\n");
+    console.log(number.toString().substr(0,number.toString().indexOf(".") + 3));
+    console.log(parseInt(number * 100) / 100);
+    console.log(number.toFixed(2));
+
+    console.log("\n\n" + " 1 toUpperCase，转换为大写（参数： 无）\n 2 toLowerCase，转换为小写（参数：无） "+ "\n\n");
+    console.log(anyString + "  upperCase " + anyString.toUpperCase() + "   lower   " + anyString.toUpperCase().toLowerCase() );
 
 
-//    var count = 5;
+    //    var count = 5;
 //    var speed = 1000;
 //    setTimeout(goIndexPage,speed);
 //
