@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1214</title>
+</head>
+<body>
+<input type="file" name="" id="file">
+</body>
+</html>
+
+<script>
+    var file = document.getElementById("file");
+    file.onchange = function () {
+        var path = this.value;
+        var suxxif = path.substr(path.indexOf(".")).toLowerCase();
+        alert(suxxif);
+    }
+</script>
