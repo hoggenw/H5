@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1215</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        img {
+            /*取消底层3像素空白*/
+            vertical-align: top;
+        }
+        .box {
+            width: 600px;
+            height: 200px;
+            background-color: pink;
+            border: 1px solid #ccc;
+            margin: 100px auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .box ul li {
+            float: left;
+        }
+
+        .box ul {
+            width: 400%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="box" id="scroll">
+    <ul id="innerBox">
+        <li><img src="../images/01beautiful.jpg" alt=""></li>
+        <li><img src="../images/02beautiful.jpg" alt=""></li>
+        <li><img src="../images/03beautiful.jpg" alt=""></li>
+        <li><img src="../images/04beautiful.jpg" alt=""></li>
+        <li><img src="../images/01beautiful.jpg" alt=""></li>
+        <li><img src="../images/02beautiful.jpg" alt=""></li>
+    </ul>
+
+</div>
+
+
+</body>
+</html>
+
+<script>
+
+    var scroll = document.getElementById("scroll");
+    var innerBox = document.getElementById("innerBox");
+
+    var timer = null;
+
+    timer  = setInterval(animationStart,1);
+    console.log("++");
+    var number = 0;
+    var leader = 0
+    function animationStart() {
+        number -- ;
+        console.log("function ++");
+        number <= -1200 ? number = 0 : number;
+        //leader = leader + (number - leader)/10;
+        innerBox.style.left = number + "px";
+
+    };
+
+    scroll.onmouseover = function ( ) {
+        clearInterval(timer);
+    };
+
+    scroll.onmouseout  = function () {
+
+        timer = setInterval(animationStart,20);
+    }
+
+
+
+
+
+</script>
