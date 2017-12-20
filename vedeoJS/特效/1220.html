@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1220</title>
+    <style>
+        #demo {
+            width: 300px;
+            border: 1px solid red;
+            padding: 10px;
+            margin: 15px;
+        }
+        #father {
+            width: 500px;
+            height: 500px;
+            background-color: pink;
+            margin: 100px;
+            position: relative;
+        }
+
+        #son {
+            width: 200px;
+            height: 200px;
+            background-color: #8a25c6;
+        }
+        #fa {
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+<!--offset 获取自己尺寸-->
+<div id="demo">
+dsfsd
+</div>
+
+<div id="grandFather">
+    <div id="father">
+        <div id="son"></div>
+    </div>
+</div>
+
+<div id="gf">
+    <div id="fa">
+        <div id="son1"></div>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script>
+    var demo = document.getElementById("demo");
+    console.log(demo.style.width);
+    console.log(demo.offsetWidth);
+    console.log(demo.offsetHeight);
+
+    var son = document.getElementById("son");
+
+    console.log( "offsetleft   " + son.offsetLeft);
+
+    var son1 = document.getElementById("son1");
+
+    console.log( "son1.offsetParent.tagName   " + son1.offsetParent.tagName);
+</script>

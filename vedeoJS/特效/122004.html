@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>122004</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .demo {
+            width: 400px;
+            height: 400px;
+            background-color: pink;
+            margin: 100px auto;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="demo"></div>
+</body>
+</html>
+
+<script>
+    var div = document.getElementsByTagName("div")[0];
+    div.onmousemove = function (event) {
+        var event = event || window.event;
+        var x =  event.clientX  - this.offsetLeft;
+        var y = event.clientY - this.offsetTop;
+        this.innerHTML = x + "px   " + y + "px";
+    }
+</script>

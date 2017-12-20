@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>122003</title>
+    <style>
+        #image {
+            width: 99px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+<img src="../images/img.jpg" alt="" id="image"/>
+</body>
+</html>
+<script>
+    var image = document.getElementById("image");
+    var     leaderX = 0,
+        leaderY= 0,
+        targetX = 0,
+        targetY = 0;
+    document.onclick = function (event) {
+        var event = event || window.event;
+        targetX = event.clientX;
+        targetY = event.clientY;
+//        console.log(event.clientX);
+//        console.log("  y " +event.clientY);
+    };
+//     pageX  pageY
+//     以我们的  文档   （绝对定位）  的基准点 对齐
+//    ie678 不认识
+//    clientX   clientY
+//    以 可视区域 为基准点   类似于    固定定位
+    setInterval(function () {
+        leaderX = leaderX + (targetX - leaderX)/10;
+        leaderY = leaderY + (targetY - leaderY)/10;
+        image.style.top = leaderY + "px";
+        image.style.left = leaderX + "px";
+    },10);
+</script>

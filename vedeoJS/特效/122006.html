@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>122006</title>
+    <style>
+        .scroll {
+            width: 400px;
+            height: 8px;
+            position: relative;
+            background-color: #cccccc;
+            margin: 100px;
+        }
+
+        .ball  {
+            width: 16px;
+            height: 16px;
+            border-radius: 8px;
+            position: absolute;
+            left: -8px;
+            top: -4px;
+            background-color: #369;
+        }
+        .mask {
+            width: 0;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #369;
+        }
+    </style>
+</head>
+<body>
+
+<div class="scroll" id="banner">
+    <div class="ball" id="moveBall">
+
+    </div>
+    <div class="mask" id="mask">
+
+    </div>
+
+</div>
+<div id="demo"></div>
+</body>
+</html>
+
+<script>
+    var banner = document.getElementById("banner");
+    var moveBall = document.getElementById("moveBall");
+    var  mask = document.getElementById("mask");
+    var demo = document.getElementById("demo");
+
+    moveBall.onmousedown = function (event) {
+        var event = event || window.event;
+        console.log( "event.clientX    " +event.clientX +" px");
+        var leftValue = event.clientX - (this.offsetLeft - 8) ;
+        var rightValue = banner.offsetWidth  + banner.offsetLeft - 8;
+        var leftStander = banner.offsetLeft;
+        var  that = this;
+        document.onmousemove = function (event) {
+            var event = event || window.event;
+            var pointx = event.clientX;
+            var pointy = event.clientY;
+            leftValue = pointx - leftStander;
+            if (pointx < leftStander){
+                leftValue = -8;
+            }
+            if (pointx > rightValue){
+                leftValue = banner.offsetWidth - 8;
+            }
+
+            that.style.left = leftValue + "px";
+            mask.style.width = (leftValue<0?0:leftValue) + "px";
+            console.log(pointx +" px");
+
+            demo.innerHTML = "已经走了:"+ parseInt((leftValue<0?0:leftValue)  / (banner.offsetWidth - 8) * 100) + "%";
+            window.getSelection? window.getSelection().removeAllRanges() : document.selection.empty();
+        };
+        document.onmouseup = function () {
+            document.onmousemove = null;
+        }
+    };
+
+</script>
