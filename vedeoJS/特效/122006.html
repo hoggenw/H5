@@ -76,6 +76,7 @@
             console.log(pointx +" px");
 
             demo.innerHTML = "已经走了:"+ parseInt((leftValue<0?0:leftValue)  / (banner.offsetWidth - 8) * 100) + "%";
+            //防止拖动
             window.getSelection? window.getSelection().removeAllRanges() : document.selection.empty();
         };
         document.onmouseup = function () {
