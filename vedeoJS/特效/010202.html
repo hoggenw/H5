@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>0102.02</title>
+
+    <style>
+        *{margin:0;padding:0}
+        img{
+            vertical-align: top;
+        }
+        .main{
+            margin:0 auto;
+            width:1000px;
+            margin-top:10px;
+
+        }
+        .fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <script scr ="part.js" type="text/javascript" ></script>
+</head>
+<body>
+<div class="top" id="top">
+    <img src="../images/top.png" alt=""/>
+</div>
+<div class="nav" id="Q-nav">
+    <img src="../images/nav.png" alt=""/>
+</div>
+<div class="main">
+    <img src="../images/main.png" alt=""/>
+</div>
+
+</body>
+</html>
+
+<script>
+
+    function $(idString) {
+        return document.getElementById(idString);
+    }
+    var nav = $("Q-nav");
+    var navTop = nav.offsetTop;  // 得到导航栏距离顶部的距离  168
+    console.log(navTop);
+
+    window.onscroll = function () {
+        if(scroll().top >= navTop)
+        {
+            //alert("到位置了");
+            nav.className = "nav fixed";
+        }
+        else
+        {
+            nav.className = "nav";
+        }
+    };
+    function scroll() {
+        if (window.pageXOffset != null) {
+            return {
+                left: window.pageXOffset,
+                top: window.pageYOffset
+            }
+        }else  if (document.compatMode == "CSS1Compat") {
+            // 检测是不是怪异模式的浏览器 -- 就是没有 声明<!DOCTYPE html>
+            return {
+                left : document.documentElement.scrollLeft,
+                top : document.documentElement.scrollTop
+            }
+        }
+        return { //  剩下的肯定是怪异模式的
+            left: document.body.scrollLeft,
+            top: document.body.scrollTop
+        }
+    }
+
+
+</script>

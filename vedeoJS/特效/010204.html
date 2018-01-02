@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>0102.04</title>
+    <style>
+        #gotop {
+            position: fixed;
+            right: 50px;
+            bottom: 100px;
+            display: none;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+
+            var top = document.getElementById("gotop");
+            var leader = 0;
+            var target = 0;
+            var timer = null;  // 定时器
+
+            window.onscroll = function () {
+                scroll().top > 0 ? show(top) : hide(top);
+
+
+
+            };
+            top.onclick = function () {
+                clearInterval(timer);
+                target = 0;
+                timer = setInterval(function () {
+                    leader = leader + (target - leader) / 10;
+                    window.scrollTo(0,leader);  // 去往页面中的某个位置
+                    if (leader == target) {
+                        clearInterval(timer);
+                    }
+
+                },30)
+            };
+
+
+            function show(obj) { obj.style.display = "block";}
+            function hide(obj) { obj.style.display = "none";}
+            function scroll() {
+                if (window.pageXOffset != null) {
+                    return {
+                        left: window.pageXOffset,
+                        top: window.pageYOffset
+                    }
+                } else if (document.compatMode == "CSS1Compat") {
+                    // 检测是不是怪异模式的浏览器 -- 就是没有 声明<!DOCTYPE html>
+                    return {
+                        left: document.documentElement.scrollLeft,
+                        top: document.documentElement.scrollTop
+                    }
+                }
+                return { //  剩下的肯定是怪异模式的
+                    left: document.body.scrollLeft,
+                    top: document.body.scrollTop
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="gotop" class="top">
+    <img src="../images/Top.jpg" alt=""/>
+</div>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+<p>我是内容部分，有很多恩多很多</p>
+</body>
+</html>
