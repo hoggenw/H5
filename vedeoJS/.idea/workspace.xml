@@ -20,51 +20,61 @@
       <content type="file-editors">
         <state>
           <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="02 模拟垂直滚动条.html" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/02 模拟垂直滚动条.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-428">
-                    <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="03 html结构的访问.html" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/03 html结构的访问.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="225">
-                    <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="04 窗口滚动效果.html" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/04 窗口滚动效果.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="315">
-                    <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="05 json.html" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/05 json.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="225">
-                    <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
             <file leaf-file-name="06 封装自己的scrollTop left.html" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/06 封装自己的scrollTop left.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="180">
-                    <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                  <state relative-caret-position="59">
+                    <caret line="20" column="9" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="52" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="demo css.html" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/08 两侧跟随的广告/demo css.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="252">
+                    <caret line="33" column="13" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="23" selection-end-column="43" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/09 返回头部的小火箭/demo.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="188">
+                    <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="10 屏幕滑动效果.html" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/10 屏幕滑动效果.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="225">
+                    <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="my.js" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/my.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="210">
+                    <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="my.js" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/09 返回头部的小火箭/my.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="285">
+                    <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
                     <folding />
                   </state>
                 </provider>
@@ -88,12 +98,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="010101.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="010101.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/特效/010101.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="406">
+              <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="010201.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/特效/010201.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="010202.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/特效/010202.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="75" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="010203.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/特效/010203.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="010204.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/特效/010204.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="010205.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/特效/010205.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="53" column="41" lean-forward="true" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc;n#$#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +186,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -158,6 +240,13 @@
         <option value="$PROJECT_DIR$/特效/122006.html" />
         <option value="$PROJECT_DIR$/特效/122801.html" />
         <option value="$PROJECT_DIR$/特效/010101.html" />
+        <option value="$PROJECT_DIR$/特效/010201.html" />
+        <option value="$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/07 固定导航栏/demo css部分.html" />
+        <option value="$PROJECT_DIR$/特效/010202.html" />
+        <option value="$PROJECT_DIR$/特效/010203.html" />
+        <option value="$PROJECT_DIR$/特效/010204.html" />
+        <option value="$PROJECT_DIR$/my.js" />
+        <option value="$PROJECT_DIR$/特效/010205.html" />
       </list>
     </option>
   </component>
@@ -168,8 +257,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="59" />
+    <option name="x" value="28" />
+    <option name="y" value="58" />
     <option name="width" value="1419" />
     <option name="height" value="794" />
   </component>
@@ -261,20 +350,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.122801.html">
-    <configuration default="false" name="122003.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/特效/122003.html">
+  <component name="RunManager" selected="JavaScript Debug.010205.html">
+    <configuration default="false" name="010201.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/特效/010201.html">
       <method />
     </configuration>
-    <configuration default="false" name="122004.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/特效/122004.html">
+    <configuration default="false" name="010202.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/特效/010202.html">
       <method />
     </configuration>
-    <configuration default="false" name="122005.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/特效/122005.html">
+    <configuration default="false" name="010203.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/特效/010203.html">
       <method />
     </configuration>
-    <configuration default="false" name="122006.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/特效/122006.html">
+    <configuration default="false" name="010204.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/特效/010204.html">
       <method />
     </configuration>
-    <configuration default="false" name="122801.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/特效/122801.html">
+    <configuration default="false" name="010205.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/特效/010205.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -344,19 +433,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.122003.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.122004.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.122005.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.122006.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.122801.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.010201.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.010202.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.010203.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.010204.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.010205.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.122801.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.122006.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.122005.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.122004.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.122003.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.010205.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.010204.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.010203.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.010202.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.010201.html" />
       </list>
     </recent_temporary>
   </component>
@@ -387,15 +476,15 @@
       <workItem from="1513306271565" duration="15782000" />
       <workItem from="1514429208297" duration="3617000" />
       <workItem from="1514766879189" duration="224000" />
-      <workItem from="1514767173761" duration="237000" />
+      <workItem from="1514767173761" duration="8315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138601000" />
+    <option name="totallyTimeSpent" value="146679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="59" width="1419" height="794" extended-state="1" />
+    <frame x="28" y="58" width="1419" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24665257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -431,102 +520,11 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/05-js第二天/案例/12 简单验证表单/demo js部分.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/05-js第二天/案例/12 简单验证表单/demo css部分.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/06-js第三天/案例/02 仿淘宝搜索框.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoMouse/mouseCSS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoMouse/mouseHtm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jstest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="107" column="10" lean-forward="false" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.11/1211.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="63" lean-forward="true" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoMouse/mouseJS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.11/1212.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="78" column="37" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="78" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/09-js第六天/案例/02 时钟效果/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/09-js第六天/案例/02 时钟效果/demo js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/09-js第六天/案例/03 点击倒计时.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
@@ -754,10 +752,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/02 模拟垂直滚动条.html">
+    <entry file="file://$PROJECT_DIR$/特效/122801.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-428">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="598">
+          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/特效/010101.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/04 窗口滚动效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -765,15 +779,15 @@
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/03 html结构的访问.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/04 窗口滚动效果.html">
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/02 模拟垂直滚动条.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="41">
+          <caret line="66" column="18" lean-forward="false" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -786,26 +800,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/特效/010201.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/07 固定导航栏/demo css部分.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/06 封装自己的scrollTop left.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="59">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/特效/122801.html">
+    <entry file="file://$PROJECT_DIR$/特效/010202.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        <state relative-caret-position="283">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="75" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/特效/010101.html">
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/08 两侧跟随的广告/demo css.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="252">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="23" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/特效/010203.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/09 返回头部的小火箭/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/09 返回头部的小火箭/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/特效/010204.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#$#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/12-网页特效2/案例/10 屏幕滑动效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/特效/010205.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="53" column="41" lean-forward="true" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
           <folding />
         </state>
       </provider>

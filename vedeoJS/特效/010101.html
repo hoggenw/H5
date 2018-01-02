@@ -3,8 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <title>0101.01</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 500px;
+            border: 1px solid red;
+            margin: 100px auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .content {
+            height: auto;
+            padding: 5px 18px 5px 5px;
+            top: 0;
+            left: 0;
+            position:  absolute;
+        }
+        .scroll {
+            width: 18px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #eeeeee;
+        }
+        .bar {
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: red;
+            cursor: move;
+            border-radius: 10px;
+
+        }
+
+    </style>
 </head>
 <body>
+ <div class="box" id="box">
+     <div class="content" id="content">
+         文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分
+         文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分
+         文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分
+         文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分
+         文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分
+         文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内     文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分
+         文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分
+         文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分
+         文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分
+         文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分文字内容部分
+
+         <div class="scroll" id="scroll">
+         <div class="bar" id="bar">
+
+         </div>
+     </div>
+
+ </div>
 
 </body>
 </html>
+
+<script>
+    var box =  document.getElementById("box");
+    var content =   document.getElementById("content");
+    var scroll =   document.getElementById("scroll");
+    var bar =  document.getElementById("bar");
+    console.log(" getElementById  " + bar + box + content + scroll);
+    if (box.offsetHeight >= content.offsetHeight) {
+        scroll.style.display = "none";
+        content.style.paddingRight = "5px";
+    }else  {
+        scroll.style.display = "block";
+        content.style.paddingRight = "18px";
+    }
+    var ratio =  box.offsetHeight / content.offsetHeight;
+    var barHeight = ratio * box.offsetHeight;
+    bar.style.height = barHeight + "px";
+    console.log("bar.style.height:   " + bar.style.height);
+    bar.onmousedown  = function (envebt) {
+        var event = event || window.event;
+        var t = event.clientY - this.offsetTop;// 红色盒子距离 父亲 盒子顶部距离
+        var that = this;
+        document.onmousemove = function (event) {
+            var event = event || window.event;
+            var barTop = event.clientY - t ;  // 红色移动的距离
+            // （内容盒子高度 -  大盒子高度） /  (大盒子高度 - 红色盒子的高度)   * 红色盒子移动的数值
+            var contentTop = (content.offsetHeight - content.parentNode.offsetHeight) / (content.parentNode.offsetHeight - that.offsetHeight) *  barTop;
+            // 内容盒子移动的距离
+            if(barTop < 0)
+            {
+                barTop = 0;
+            }
+            else if(barTop > content.parentNode.offsetHeight - that.offsetHeight)
+            // 大于  大盒子的高度  -  红色盒子的高度
+            {
+                barTop = content.parentNode.offsetHeight - that.offsetHeight ;
+            }
+            else
+            {
+                content.style.top = -contentTop + "px";  // 往上走是负值
+            }
+            that.style.top = barTop + "px";
+
+            window.getSelection()? window.getSelection().removeAllRanges() : document.selection.empty();
+        };
+        document.onmouseup = function() {
+            document.onmousemove = null;
+        }
+
+    }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
