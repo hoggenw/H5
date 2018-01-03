@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>0102.06</title>
+    <script src="../my.js" type = "text/javascript"></script>
+</head>
+<body>
+
+<button id="btn">点击</button>
+
+</body>
+</html>
+
+<script>
+    window.onload = function () {
+
+        var btn = $("btn");
+        document.onclick = function () {
+            alert("点击了空白处");
+
+        };
+        btn.onclick = function (envent) {
+            alert("点击了按钮");
+            var event = event || window.event;
+            if (event && event.stopPropagation) {
+                event.stopPropagation();
+            }else {
+                event.cancelBubble = true;
+            }
+
+        };
+
+        console.log(client().width);
+        window.onresize = function () {
+            console.log("window.onresize" + client().width);
+            if (client().width > 960) {
+                document.body.style.backgroundColor = "pink";
+            }else if (client().width > 640) {
+                document.body.style.backgroundColor = "green";
+            }else {
+                document.body.style.backgroundColor = "blue";
+            }
+        };
+        console.log("窗口分辨率 ： " + window.screen.width);
+
+    };
+
+
+
+</script>
