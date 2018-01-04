@@ -30,6 +30,7 @@
     };
 
     function animation(obj, stander) {
+        clearInterval(obj.timer);
         var speed = obj.offsetLeft < stander ? 5 : -5;
         obj.timer = setInterval(function () {
             var result = stander - obj.offsetLeft;
