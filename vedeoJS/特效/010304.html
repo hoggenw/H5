@@ -51,7 +51,19 @@
                 clearInterval(timer);
                 alert("到目标了")
             }
+            console.log("访问css属性");
+            console.log("box.style.left   "  +  box.style.left);
+            fn("left");
+            fn("height");
+            fn("width");
         },30)
+    };
+
+
+
+    console.log(box.style["left"]);
+    function fn(attribute) {
+        console.log( attribute + ": " + box.style[attribute]);
     }
 
 </script>
