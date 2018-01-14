@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.w-slider {
+    width: 310px;
+    height: 265px;
+    margin: 100px;
+    background-color: pink;
+}
