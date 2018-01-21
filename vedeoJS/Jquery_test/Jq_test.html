@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            height: 200px;
+            background: pink;
+            margin-bottom: 10px;
+            display: none;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+           $("#demo").click(function () {
+               $("div").show(1000).html("我是内容");
+            });
+
+        });
+        //第二种入口函数的写法，为上面的简写
+        $(function () {
+            alert("show me the money");
+        });
+
+    </script>
+
+</head>
+<body>
+<input type="button" value="我是按钮" id="demo"/>
+<div></div>
+<div></div>
+<div></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
