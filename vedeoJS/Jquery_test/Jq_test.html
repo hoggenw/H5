@@ -22,8 +22,14 @@
            $("#demo").click(function () {
                $("div").show(1000).html("我是内容");
             });
+           $("li").css("font-size",function (index,value) {
+               return (index+1) * 10 + "px";
+           })
 
         });
+        var obj = {};
+        var obj1 = new Object();
+        var obj2 = Object.create();
         //第二种入口函数的写法，为上面的简写
         $(function () {
             alert("show me the money");
@@ -37,6 +43,12 @@
 <div></div>
 <div></div>
 <div></div>
+<ul>
+    <li>我是大哥</li>
+    <li>我是大哥</li>
+    <li>我是大哥</li>
+    <li>我是大哥</li>
+</ul>
 </body>
 </html>
 
