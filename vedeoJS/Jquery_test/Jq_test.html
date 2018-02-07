@@ -24,7 +24,26 @@
             });
            $("li").css("font-size",function (index,value) {
                return (index+1) * 10 + "px";
-           })
+           });
+
+           //	mouseover/mouseout事件，鼠标经过的时候会触发多次，每遇到一个子元素就会触发一次。
+          // mouseenter/mouseleave事件，鼠标经过的时候只会触发一次
+
+           $("#specialDiv").mouseover(function () {
+              console.log("specialDiv mouseover");
+           });
+           $("#specialDiv").mouseout(function () {
+               console.log("specialDiv mouseout");
+           });
+
+
+            $("#secondDiv").mouseenter(function () {
+                console.log("specialDiv mouseenter");
+            });
+            $("#secondDiv").mouseleave(function () {
+                console.log("specialDiv mouseleave");
+            });
+
 
         });
         var obj = {};
@@ -40,14 +59,14 @@
 </head>
 <body>
 <input type="button" value="我是按钮" id="demo"/>
-<div></div>
-<div></div>
+<div ></div>
+<div ></div>
 <div></div>
 <ul>
+    <li id="specialDiv">我是大哥</li>
     <li>我是大哥</li>
     <li>我是大哥</li>
-    <li>我是大哥</li>
-    <li>我是大哥</li>
+    <li id="secondDiv">我是大哥</li>
 </ul>
 </body>
 </html>
