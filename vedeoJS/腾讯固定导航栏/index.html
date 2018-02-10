@@ -5,18 +5,44 @@
     <title>tencent</title>
     <style>
         body,div,ul,li,ol,dl,dt,p,dd,img,input,a,span,h1,h2,h3,h4{padding:0; margin:0; border:0; list-style:none;}
-
+        .main{
+            width: 1000px;
+            margin:0 auto;
+            margin-top: 20px;
+        }
     </style>
 
 
     <script type="text/javascript" src="../Jquery_test/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
+            var H = $(".top").height();
+            $(window).scroll(function () {
+                var docScrollTop = $(document).scrollTop();
+                if (docScrollTop > H){
+                    $(".nav").css({"position":"fixed","top":0});
+                    // 此时 nav的位置固定，如果不设置 main部分的margin-top的话，将有一部分内容被挡住 nav的高度+开始设置的20
+                    $(".main").css("margin-top",106);
+                }else {
+                    $(".nav").css({"position":"static"});  /*静态定位*/
+                    $(".main").css("margin-top",20);
+                }
+            })
         });
 
     </script>
 </head>
 <body>
+<div class="top">
+    <img src="../腾讯固定导航栏/images/top.png" />
+</div>
+<div class="nav">
+    <img src="../腾讯固定导航栏/images/nav.png" />
+
+</div>
+<div class="main">
+    <img src="../腾讯固定导航栏/images/main.png" />
+</div>
 
 </body>
 </html>

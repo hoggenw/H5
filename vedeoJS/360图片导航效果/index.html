@@ -5,6 +5,41 @@
     <title>360</title>
     <style>
         body,div,ul,li,ol,dl,dt,p,dd,img,input,a,span,h1,h2,h3,h4{padding:0; margin:0; border:0; list-style:none;}
+        .wrapper{
+            margin: 100px auto;
+            overflow: hidden;
+            padding: 10px 0 0 10px;
+            font-family: Arial;
+            width: 752px;
+            border: 1px solid #cccccc;
+        }
+
+        .wrapper li {
+            position: relative;
+            float: left;
+            height: 125px;
+            width: 178px;
+            overflow: hidden;
+            margin: 0 10px 10px 0;
+        }
+        .wrapper li div,.wrapper li p{
+            width:178px;
+            height: 25px;
+            position: absolute;
+            font-size:14px;
+            text-align: center;
+            line-height: 25px;
+            color:white;
+            left:0;
+            bottom:-25px;
+        }
+
+        .wrapper li div{
+            background-color:#000;
+        }
+        .wrapper li p{
+            background: url(images/bg.png) no-repeat 5px 0;
+        }
 
     </style>
 
@@ -12,11 +47,45 @@
     <script type="text/javascript" src="../Jquery_test/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
+            var div= $("<div></div>"),speed = 388,$p = $(".wrapper p");
+
+            //before() - 在被选元素之前插入内容
+            $p.before(div);
+            //fadeTo() 方法将被选元素的不透明度逐渐地改变为指定的值。
+            $(".wrapper div").fadeTo(0,0.5);
+            //each() 方法规定为每个匹配元素规定运行的函数。$(selector).each(function(index,element))
+            // index - 选择器的 index 位 , element - 当前的元素（也可使用 "this" 选择器）
+            $p.each(function (index,element) {
+                var y = index * 25;
+                $(element).css("background-position","5px -" + y + "px");
+            })
+            //children() 方法返回返回被选元素的所有直接子元素。
+
+            // stop() 方法用于在动画或效果完成前对它们进行停止。
+            $(".wrapper li").hover(function(){
+                console.log("hover");
+                $(this).children("div,p").stop().animate({"bottom":0},speed);
+            },function(){
+                console.log("hover");
+                $(this).children("div,p").stop().animate({"bottom":-26},speed);
+            });
         });
 
-    </script>
-</head>
-<body>
 
+    </script>
+</hp
+<body>
+  <div class="wrapper">
+      <ul>
+          <li><a href="#"><img src="../360图片导航效果/images/01.JPG" alt=""></a><p>乐山到底好不好</p></li>
+          <li><a href="#"><img src="../360图片导航效果/images/02.JPG" alt=""></a><p>le山到底好不好</p></li>
+          <li><a href="#"><img src="../360图片导航效果/images/03.JPG" alt=""></a><p>乐山到底好不好</p></li>
+          <li><a href="#"><img src="../360图片导航效果/images/04.JPG" alt=""></a><p>乐山到底好不好</p></li>
+          <li><a href="#"><img src="../360图片导航效果/images/05.JPG" alt=""></a><p>乐山到底好不好</p></li>
+          <li><a href="#"><img src="../360图片导航效果/images/06.JPG" alt=""></a><p>乐山到底好不好</p></li>
+          <li><a href="#"><img src="../360图片导航效果/images/07.JPG" alt=""></a><p>乐山到底好不好</p></li>
+          <li><a href="#"><img src="../360图片导航效果/images/08.JPG" alt=""></a><p>乐山到底好不好</p></li>
+      </ul>
+  </div>
 </body>
 </html>
