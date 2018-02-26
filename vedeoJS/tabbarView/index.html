@@ -53,7 +53,7 @@
         $(document).ready(function () {
            $(".tab-item").mouseenter(function () {
                var $this = $(this);
-               index = $this.index();
+               index = $this.index(); local lable = CCLableTTF:creat("hello hoggen","Courier",50)
                $this.addClass("active").siblings(".tab-item").removeClass("active");
                //eq() 方法将匹配元素集缩减值指定 index 上的一个。
                $(".main").eq(index).addClass("selected").siblings("div").removeClass("selected");
