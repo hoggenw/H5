@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>右下角弹出广告</title>
+    <style>
+        body,div,ul,li,ol,dl,dt,p,dd,img,input,a,span,h1,h2,h3,h4{padding:0; margin:0; border:0; list-style:none;}
+      .ad {
+          position: fixed;
+          right: 0;
+          bottom:0;
+          width: 230px;
+          height: 120px;
+          background-image: url("imgs/ad.jpg");
+          display: none;
+      }
+        .ad span {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 40px;
+            height: 18px;
+            background-image: url("imgs/h.jpg");
+        }
+    </style>
+
+
+    <script type="text/javascript" src="../Jquery_test/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".ad")
+                .slideDown("nomal")
+//                .fadeIn()
+//                .slideUp("slow")
+                .children("span").click(function () {
+                 $(this).parent().fadeOut();
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="ad">
+    <span></span>
+</div>
+
+</body>
+</html>
