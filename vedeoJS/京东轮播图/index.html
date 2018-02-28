@@ -5,19 +5,66 @@
     <title>京东轮播图</title>
     <style>
         body,div,ul,li,ol,dl,dt,p,dd,img,input,a,span,h1,h2,h3,h4{padding:0; margin:0; border:0; list-style:none;}
+        .wrapper{
+            width: 670px;
+            height: 240px;
+            margin: 100px auto;
+            overflow: hidden;
+            position: relative;
+        }
+        ol{
+            position: absolute;
+            right: 0;
+            bottom: 10px;
+            width: 190px;
+        }
+        ol li {
+            float: left;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            text-align: center;
+            border-radius: 50%;
+            cursor: default;
+            background-color: #abc;
+        }
 
+        ol li.current {
+            background-color: pink;
+        }
     </style>
 
 
     <script type="text/javascript" src="../Jquery_test/jquery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+            $(".wrapper ol li").mouseenter(function () {
+               $(this).addClass("current").siblings().removeClass("current");
+                $(".wrapper ul li").eq($(this).index()).fadeIn("fast").siblings().fadeOut();
 
+            });
         })
     </script>
 </head>
 <body>
 
-
+<div class="wrapper">
+    <ul>
+        <li><img src="images/1.jpg" alt=""/></li>
+        <li><img src="images/2.jpg" alt=""/></li>
+        <li><img src="images/3.jpg" alt=""/></li>
+        <li><img src="images/4.jpg" alt=""/></li>
+        <li><img src="images/5.jpg" alt=""/></li>
+        <li><img src="images/6.jpg" alt=""/></li>
+    </ul>
+    <ol>
+        <li class="current">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ol>
+</div>
 </body>
 </html>
