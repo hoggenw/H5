@@ -20,21 +20,11 @@
       <content type="file-editors">
         <state>
           <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="QQ微博.html" pinned="false" current-in-tab="false">
+            <file leaf-file-name="QQ微博.html" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/微博案例资源/QQ微博.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="45">
-                    <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="05省市选择.html" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/review/05省市选择.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="405">
-                    <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+                  <state relative-caret-position="-474">
+                    <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
                     <folding />
                   </state>
                 </provider>
@@ -48,41 +38,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/京东轮播图/index.html">
+      <file leaf-file-name="qq微博.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/qq微博.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-93">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="46" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="表格.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/表格.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="城市选择.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/城市选择.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="省市选择.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/省市选择.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="414">
+              <caret line="167" column="47" lean-forward="true" selection-start-line="167" selection-start-column="47" selection-end-line="167" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -114,6 +74,9 @@
       <find>animation</find>
       <find>fn</find>
       <find>active</find>
+      <find>sendBtnHover</find>
+      <find>msgTx</find>
+      <find>overf</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -126,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../../web前端视频/四 前端基本功/11-网页特效1/案例/06 点击跟随鼠标/demo.html" />
         <option value="$PROJECT_DIR$/特效/122003.html" />
         <option value="$PROJECT_DIR$/特效/122004.html" />
         <option value="$PROJECT_DIR$/特效/122005.html" />
@@ -177,6 +139,7 @@
         <option value="$PROJECT_DIR$/总结和微博输入仿写/表格.html" />
         <option value="$PROJECT_DIR$/总结和微博输入仿写/城市选择.html" />
         <option value="$PROJECT_DIR$/总结和微博输入仿写/省市选择.html" />
+        <option value="$PROJECT_DIR$/总结和微博输入仿写/qq微博.html" />
       </list>
     </option>
   </component>
@@ -187,8 +150,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="334" />
-    <option name="y" value="23" />
+    <option name="x" value="403" />
+    <option name="y" value="70" />
     <option name="width" value="1440" />
     <option name="height" value="830" />
   </component>
@@ -231,6 +194,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="淘宝服饰精品广告" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vedeoJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vedeoJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="旋转木马轮播图" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,20 +274,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.城市选择.html">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/3层级轮播图/index.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.qq微博.html">
     <configuration default="false" name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/京东轮播图/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="手风琴.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/3手风琴效果/手风琴.html">
       <method />
     </configuration>
     <configuration default="false" name="表格.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/总结和微博输入仿写/表格.html">
       <method />
     </configuration>
     <configuration default="false" name="城市选择.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/总结和微博输入仿写/城市选择.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="省市选择.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/总结和微博输入仿写/省市选择.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="qq微博.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/总结和微博输入仿写/qq微博.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -380,19 +357,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.手风琴.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.表格.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.城市选择.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.表格.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.城市选择.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.省市选择.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.qq微博.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.城市选择.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.表格.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.手风琴.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.qq微博.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.省市选择.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.城市选择.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.表格.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -430,15 +407,15 @@
       <workItem from="1517733459918" duration="7819000" />
       <workItem from="1518073785262" duration="6218000" />
       <workItem from="1518785989324" duration="243000" />
-      <workItem from="1519398344785" duration="10188000" />
+      <workItem from="1519398344785" duration="17973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205436000" />
+    <option name="totallyTimeSpent" value="213221000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="334" y="23" width="1440" height="830" extended-state="1" />
+    <frame x="403" y="70" width="1440" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -507,13 +484,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/15-网页特效5/案例/02 demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/15-网页特效5/案例/01  封装运动框架基本函数 (更改完毕兼容性).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -793,24 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/旋转木马轮播图/carrousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/旋转木马轮播图/carrousel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例-1/京东轮播图/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -843,22 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/微博案例资源/QQ微博.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/表格.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/review/04城市选择案例.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -875,6 +811,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/省市选择.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/表格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/京东轮播图/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
@@ -885,16 +837,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/review/05省市选择.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="137">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/省市选择.html">
+    <entry file="file://$PROJECT_DIR$/旋转木马轮播图/carrousel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="390">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/旋转木马轮播图/carrousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/微博案例资源/QQ微博.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/qq微博.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="167" column="47" lean-forward="true" selection-start-line="167" selection-start-column="47" selection-end-line="167" selection-end-column="47" />
           <folding />
         </state>
       </provider>
