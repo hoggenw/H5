@@ -30,21 +30,11 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="04城市选择案例.html" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/review/04城市选择案例.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="316">
-                    <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="54" selection-end-column="15" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="05省市选择.html" pinned="false" current-in-tab="false">
+            <file leaf-file-name="05省市选择.html" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/review/05省市选择.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="0">
-                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <state relative-caret-position="405">
+                    <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
                     <folding />
                   </state>
                 </provider>
@@ -78,11 +68,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="城市选择.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="城市选择.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/城市选择.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="438">
+              <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="省市选择.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/省市选择.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -126,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/特效/122002.html" />
         <option value="$PROJECT_DIR$/../../../web前端视频/四 前端基本功/11-网页特效1/案例/06 点击跟随鼠标/demo.html" />
         <option value="$PROJECT_DIR$/特效/122003.html" />
         <option value="$PROJECT_DIR$/特效/122004.html" />
@@ -177,6 +176,7 @@
         <option value="$PROJECT_DIR$/京东轮播图/index.html" />
         <option value="$PROJECT_DIR$/总结和微博输入仿写/表格.html" />
         <option value="$PROJECT_DIR$/总结和微博输入仿写/城市选择.html" />
+        <option value="$PROJECT_DIR$/总结和微博输入仿写/省市选择.html" />
       </list>
     </option>
   </component>
@@ -430,15 +430,15 @@
       <workItem from="1517733459918" duration="7819000" />
       <workItem from="1518073785262" duration="6218000" />
       <workItem from="1518785989324" duration="243000" />
-      <workItem from="1519398344785" duration="10075000" />
+      <workItem from="1519398344785" duration="10188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205323000" />
+    <option name="totallyTimeSpent" value="205436000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="334" y="23" width="1440" height="830" extended-state="0" />
+    <frame x="334" y="23" width="1440" height="830" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -507,13 +507,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/特效/010801.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/四 前端基本功/15-网页特效5/案例/02 demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -826,14 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/review/05省市选择.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/review/01jQuery入口函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -874,6 +859,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/review/04城市选择案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/城市选择.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/京东轮播图/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
@@ -882,18 +883,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/review/04城市选择案例.html">
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例/review/05省市选择.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="54" selection-end-column="15" />
+        <state relative-caret-position="405">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/城市选择.html">
+    <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/省市选择.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
       </provider>
