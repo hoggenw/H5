@@ -3,12 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>html5</title>
+    <style>
+        /*.myprogress {*/
+            /*-webkit-appearance: none;*/
+        /*}*/
+        .myprogress::-webkit-progress-bar {
+            background-color: red;
+        }
+
+        /*.content::after {*/
+            /*content:'bbbbbb';*/
+            /*color: orange;*/
+        /*}*/
+
+    </style>
 </head>
 <body>
+<div class="content">aaaaaa</div>
 
+<!--数据列表需要载体-->
+<input type="text" list = "dataList">
+<datalist id="dataList">
+    <option value="hoggen"></option>
+    <option value="wang"></option>
+</datalist>
+<br>
+<!--状态指示器-->
+<progress></progress>
+<progress value="0.5" max="2" class="myprogress"></progress>
 
-
-
+<!--通过链接关系属性申明连入的链接和当前文档之间的关系-->
+<a href="../总结和微博输入仿写/qq微博.html" ref="prev">微博</a>
+<a href="../京东轮播图/index.html" ref="next">轮播</a>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
