@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多媒体</title>
+</head>
+<body>
+
+<!--<audio src="../html5/music.mp3" controls = "controls"></audio>-->
+<audio src="../html5/music.mp3" id="audio"></audio>
+<button id="btnPlay">播放</button>
+<button id="btnStop">暂停</button>
+
+<video  controls = "controls">
+    <source src="fun.mp4" type="video/mp4">
+    <source src="fun." type="video/ogg">
+</video>
+
+</body>
+</html>
+
+<script>
+    <!--jwpleay  专门为移动端zepto-->
+    var btn = document.getElementById("btnPlay");
+    var stop = document.getElementById("btnStop");
+    var audio = document.getElementById("audio");
+    btn.addEventListener('click',function () {
+            //播放音频
+            audio.play();
+    });
+
+    stop.addEventListener('click',function () {
+       audio.pause();
+    });
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

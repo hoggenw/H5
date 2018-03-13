@@ -36,8 +36,49 @@
 <a href="../总结和微博输入仿写/qq微博.html" ref="prev">微博</a>
 <a href="../京东轮播图/index.html" ref="next">轮播</a>
 
+<!--结构数据标记-->
+
+<label >
+    请输入：
+    <input type="text">
+</label>
+<!--jQuery操作一定要做变量本地化-->
+
+<ul id="users">
+    <li class="item" data-id="1" data-age="18" data-gender="true">
+        张三
+        <pre></pre>
+    </li>
+    <li class="item" data-id="2" data-age="18" data-gender="false">
+        李四
+        <pre></pre>
+    </li>
+    <li class="item" data-id="3" data-age="18" data-gender="true">
+        王二
+        <pre></pre>
+    </li>
+</ul>
+
 </body>
 </html>
+<script>
+    //告诉浏览这是一个标签 htmlshiv.js 不兼容html5的处理情况
+    document.createElement('header');
+
+    console.log("hoggen wang")
+
+    var  ul = document.getElementById("users");
+    for (var i = 0; i < ul.children.length; i ++){
+        var li = ul.children[i];
+        li.setAttribute('data-name',li.innerText);
+        li.children[0].innerText = '';
+        for (var  key in li.dataset){
+            li.children[0].innerText += key + ':' + li.dataset[key] + '\n';
+        }
+
+
+    }
+</script>
 
 
 
