@@ -15,26 +15,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="08-web-storage.html" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/08-web-storage.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="230">
-                    <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="57" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -78,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_cache.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application_cache.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5/application_cache.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            <state relative-caret-position="89">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="拖拽操作.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html5/拖拽操作.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -149,8 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/特效/010202.html" />
-        <option value="$PROJECT_DIR$/特效/010203.html" />
         <option value="$PROJECT_DIR$/特效/010204.html" />
         <option value="$PROJECT_DIR$/特效/010205.html" />
         <option value="$PROJECT_DIR$/my.js" />
@@ -199,7 +187,9 @@
         <option value="$PROJECT_DIR$/html5/history.html" />
         <option value="$PROJECT_DIR$/html5/多媒体.html" />
         <option value="$PROJECT_DIR$/html5/全屏API.html" />
+        <option value="$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/09-file-api.html" />
         <option value="$PROJECT_DIR$/html5/application_cache.html" />
+        <option value="$PROJECT_DIR$/html5/拖拽操作.html" />
       </list>
     </option>
   </component>
@@ -216,8 +206,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="78" />
+    <option name="x" value="5" />
+    <option name="y" value="38" />
     <option name="width" value="1440" />
     <option name="height" value="830" />
   </component>
@@ -396,10 +386,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.application_cache.html">
-    <configuration default="false" name="SVG.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/html5/SVG.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.拖拽操作.html">
     <configuration default="false" name="新选择器.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/html5/新选择器.html">
       <method />
     </configuration>
@@ -410,6 +397,9 @@
       <method />
     </configuration>
     <configuration default="false" name="application_cache.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/html5/application_cache.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="拖拽操作.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/html5/拖拽操作.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -479,19 +469,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.SVG.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.新选择器.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.history.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.全屏API.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.application_cache.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.新选择器.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.history.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.全屏API.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.application_cache.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.拖拽操作.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.application_cache.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.全屏API.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.history.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.新选择器.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.SVG.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.拖拽操作.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.application_cache.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.全屏API.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.history.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.新选择器.html" />
       </list>
     </recent_temporary>
   </component>
@@ -532,15 +522,15 @@
       <workItem from="1519398344785" duration="19635000" />
       <workItem from="1520495385495" duration="3000" />
       <workItem from="1520495390362" duration="6721000" />
-      <workItem from="1520841239063" duration="12080000" />
+      <workItem from="1520841239063" duration="16614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233687000" />
+    <option name="totallyTimeSpent" value="238221000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="78" width="1440" height="830" extended-state="0" />
+    <frame x="5" y="38" width="1440" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -603,33 +593,36 @@
           <line>47</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/10-drag&amp;drop.html</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/10-drag&amp;drop.html</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/10-drag&amp;drop.html</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/10-drag&amp;drop.html</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例-1/-3360图片导航效果/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/360图片导航效果/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="69" column="76" lean-forward="false" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例-1/-防腾讯固定导航栏/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例-1/-防京东侧边栏/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -830,6 +823,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -969,16 +963,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/08-web-storage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="57" />
+        <state relative-caret-position="170">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/09-file-api.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="50" column="39" lean-forward="false" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5/application_cache.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        <state relative-caret-position="89">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/10-drag&amp;drop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/拖拽操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
