@@ -20,11 +20,21 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="01 文本-阴影.html" pinned="false" current-in-tab="true">
+            <file leaf-file-name="01 文本-阴影.html" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/01-CSS3基础-第1天/4-源代码/文本/01 文本-阴影.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-273">
-                    <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+                  <state relative-caret-position="485">
+                    <caret line="96" column="32" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="90" selection-end-column="41" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="02 边框-圆角.html" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/01-CSS3基础-第1天/4-源代码/边框/02 边框-圆角.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="275">
+                    <caret line="138" column="43" lean-forward="true" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
                     <folding />
                   </state>
                 </provider>
@@ -38,11 +48,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="私有前缀.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="私有前缀.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS3学习/私有前缀.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="26">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="圆角.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS3学习/圆角.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="146" column="12" lean-forward="true" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -89,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/特效/010205.html" />
         <option value="$PROJECT_DIR$/my.js" />
         <option value="$PROJECT_DIR$/特效/010206.html" />
         <option value="$PROJECT_DIR$/特效/010207.html" />
@@ -140,6 +159,7 @@
         <option value="$PROJECT_DIR$/html5/application_cache.html" />
         <option value="$PROJECT_DIR$/html5/拖拽操作.html" />
         <option value="$PROJECT_DIR$/CSS3学习/私有前缀.html" />
+        <option value="$PROJECT_DIR$/CSS3学习/圆角.html" />
       </list>
     </option>
   </component>
@@ -156,8 +176,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="161" />
+    <option name="x" value="280" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="830" />
   </component>
@@ -336,10 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.私有前缀.html">
-    <configuration default="false" name="history.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/html5/history.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.圆角.html">
     <configuration default="false" name="全屏API.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/html5/全屏API.html">
       <method />
     </configuration>
@@ -350,6 +367,9 @@
       <method />
     </configuration>
     <configuration default="false" name="私有前缀.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3学习/私有前缀.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="圆角.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3学习/圆角.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -419,19 +439,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.history.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.全屏API.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.application_cache.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.拖拽操作.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.私有前缀.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.全屏API.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.application_cache.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.拖拽操作.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.私有前缀.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.圆角.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.私有前缀.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.拖拽操作.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.application_cache.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.全屏API.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.history.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.圆角.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.私有前缀.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.拖拽操作.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.application_cache.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.全屏API.html" />
       </list>
     </recent_temporary>
   </component>
@@ -473,15 +493,15 @@
       <workItem from="1520495385495" duration="3000" />
       <workItem from="1520495390362" duration="6721000" />
       <workItem from="1520841239063" duration="16614000" />
-      <workItem from="1521533300340" duration="4237000" />
+      <workItem from="1521533300340" duration="6370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242458000" />
+    <option name="totallyTimeSpent" value="244591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="161" width="1440" height="830" extended-state="0" />
+    <frame x="280" y="23" width="1440" height="830" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -552,20 +572,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/腾讯固定导航栏/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/五 jquery/案例-1/1右下角的弹出广告/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/淘宝服饰精品广告/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -907,18 +913,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/01-CSS3基础-第1天/4-源代码/文本/01 文本-阴影.html">
+    <entry file="file://$PROJECT_DIR$/CSS3学习/私有前缀.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        <state relative-caret-position="26">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3学习/私有前缀.html">
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/01-CSS3基础-第1天/4-源代码/文本/01 文本-阴影.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="485">
+          <caret line="96" column="32" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="90" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3学习/圆角.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="146" column="12" lean-forward="true" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/01-CSS3基础-第1天/4-源代码/边框/02 边框-圆角.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="138" column="43" lean-forward="true" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
           <folding />
         </state>
       </provider>
