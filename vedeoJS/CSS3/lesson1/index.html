@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <style>
+        body {
+            background-color: #CCCCCC;
+        }
+
+        .clip_img {
+            width: 130px;
+            height: 130px;
+            margin: 100px auto;
+            position: relative;
+            background: url("images/bg.jpg") no-repeat;
+        }
+        .before, .after {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        .before {
+            z-index: 10;
+            left: -100px;
+            background: url("images/bg.jpg") no-repeat;
+            background-clip: content-box;
+            /*确定背景区域为内容部分，不包含padding和border*/
+            background-origin: padding-box;
+            /*设置背景图的定位原点，默认为padding-box*/
+        }
+
+        .after {
+            /*right: -100px;*/
+            background-color: #FFF;
+            background-clip: content-box;
+        }
+
+        .duo {
+            width: 623px;
+            height: 417px;
+            margin: 10px auto;
+            background: url("images/bg1.png") left top no-repeat,
+                        url(images/bg2.png) right top no-repeat,
+                        url(images/bg3.png) right bottom no-repeat,
+                        url(images/bg4.png) left bottom no-repeat,
+                        url(images/bg5.png) center center no-repeat;
+        }
+
+        .origin {
+            width: 200px;
+            height: 200px;
+            border: 5px dashed red;
+            background-color: yellow;
+            margin: auto;
+            padding: 50px;
+            background-image: url(images/bg.jpg);
+            background-repeat: no-repeat;
+            /*background-origin: border-box;//border一起包含在内*/
+            background-origin: content-box;//只显示在内容部分
+            /*background-origin: padding-box;//包含pading部分*/
+
+            background-size: contain;
+             /*background-size: cover;*/
+
+
+
+            /*cover 会使“最大”边，进行缩放，另一边同比缩放，铺满容器，超出部分会溢出。*/
+
+            /*contain 会使“最小”边，进行缩放，另一边同比缩放，不一定铺满容器，会完整显示图片。*/
+
+            /*background-size 与 background-clip无关*/
+
+            /*background-size 与 background-origin 保持一致*/
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="clip_img">
+    <span class="before">
+
+    </span>
+    <span class="after">
+
+    </span>
+</div>
+
+<div class="duo">
+
+</div>
+
+<div class="origin">
+
+</div>
+
+</body>
+</html>
