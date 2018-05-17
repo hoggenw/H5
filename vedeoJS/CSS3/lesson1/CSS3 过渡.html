@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 过渡</title>
+    <style>
+
+        body {
+            background-color: #F2F2F2;
+        }
+
+        .show {
+            width: 100px;
+            height: 100px;
+            margin: 100px auto;
+            background-color: yellow;
+            transition: all  1s;
+        }
+
+        .show:hover {
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            background-color: green;
+        }
+
+        .zoom {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #CCC;
+            margin: 100px auto;
+            background-image: url(./images/bg.jpg);
+            background-position: center;
+            background-size: 100% auto;
+            position: relative;
+            transition: all 1.5s;
+        }
+        .zoom:hover {
+            background-size: 150% auto;
+        }
+        .text {
+            height: 80px;
+            text-align: center;
+            line-height: 1;
+            margin: 100px auto;
+            font-size: 80px;
+            color: #333333;
+            font-family: '微软雅黑';
+            position: relative;
+        }
+        .text span {
+            margin: 0 20px;
+            transition: all 1.5s;
+        }
+
+        .text:hover span {
+            margin: 0;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="show"></div>
+
+<div class="zoom"></div>
+
+<div class="text">
+    <span>9</span>
+    <span>亿</span>
+    <span>网</span>
+    <span>友</span>
+    <span>共</span>
+    <span>同</span>
+    <span>信</span>
+    <span>赖</span>
+</div>
+</body>
+</html>
