@@ -20,21 +20,11 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="日历模板.html" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/02-CSS3基础-第2天/4-源代码/选择器/日历模板.html">
+            <file leaf-file-name="11 伸缩布局-应用.html" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/11 伸缩布局-应用.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="420">
-                    <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="calendar.html" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/02-CSS3基础-第2天/4-源代码/选择器/calendar.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="4215">
-                    <caret line="281" column="46" lean-forward="true" selection-start-line="281" selection-start-column="46" selection-end-line="281" selection-end-column="46" />
+                  <state relative-caret-position="-745">
+                    <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
                     <folding />
                   </state>
                 </provider>
@@ -68,11 +58,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="选择器属性.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="选择器属性.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS3/lesson1/选择器属性.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="选择器 - 日历.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/lesson1/选择器 - 日历.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSS3渐变应用.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/lesson1/CSS3渐变应用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="115" column="27" lean-forward="true" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="伸缩布局.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/伸缩布局.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSS3伸缩布局.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS3/CSS3伸缩布局.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="99" column="34" lean-forward="false" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -121,11 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/特效/010301.html" />
-        <option value="$PROJECT_DIR$/../../../web前端视频/四 前端基本功/13-网页特效3/案例/14 轮播图/简单焦点图js.html" />
-        <option value="$PROJECT_DIR$/特效/010303.html" />
-        <option value="$PROJECT_DIR$/特效/010302.html" />
-        <option value="$PROJECT_DIR$/特效/010304.html" />
         <option value="$PROJECT_DIR$/特效/010601.html" />
         <option value="$PROJECT_DIR$/特效/010602.html" />
         <option value="$PROJECT_DIR$/特效/010604.html" />
@@ -172,6 +197,11 @@
         <option value="$PROJECT_DIR$/CSS3/lesson1/index.html" />
         <option value="$PROJECT_DIR$/CSS3/lesson1/linear-graidnet.html" />
         <option value="$PROJECT_DIR$/CSS3/lesson1/选择器属性.html" />
+        <option value="$PROJECT_DIR$/CSS3/lesson1/选择器 - 日历.html" />
+        <option value="$PROJECT_DIR$/CSS3/lesson1/CSS3渐变应用.html" />
+        <option value="$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/01 伸缩布局-介绍.html" />
+        <option value="$PROJECT_DIR$/CSS3/伸缩布局.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3伸缩布局.html" />
       </list>
     </option>
   </component>
@@ -188,8 +218,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="282" />
-    <option name="y" value="70" />
+    <option name="x" value="417" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="833" />
   </component>
@@ -289,6 +319,20 @@
               <option name="myItemId" value="CSS3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vedeoJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vedeoJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lesson1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -330,20 +374,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.选择器属性.html">
-    <configuration default="false" name="私有前缀.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3学习/私有前缀.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="圆角.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3学习/圆角.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3/lesson1/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="linear-graidnet.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3/lesson1/linear-graidnet.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.CSS3伸缩布局.html">
     <configuration default="false" name="选择器属性.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3/lesson1/选择器属性.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="选择器 - 日历.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3/lesson1/选择器 - 日历.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="CSS3渐变应用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3/lesson1/CSS3渐变应用.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="伸缩布局.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3/伸缩布局.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="CSS3伸缩布局.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3/CSS3伸缩布局.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -413,19 +457,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.私有前缀.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.圆角.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.linear-graidnet.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.选择器属性.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.选择器属性.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.选择器 - 日历.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CSS3渐变应用.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.伸缩布局.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.CSS3伸缩布局.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.选择器属性.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.linear-graidnet.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.圆角.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.私有前缀.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.CSS3伸缩布局.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.伸缩布局.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CSS3渐变应用.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.选择器 - 日历.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.选择器属性.html" />
       </list>
     </recent_temporary>
   </component>
@@ -469,15 +513,15 @@
       <workItem from="1520841239063" duration="16614000" />
       <workItem from="1521533300340" duration="6796000" />
       <workItem from="1522981494520" duration="663000" />
-      <workItem from="1526451913402" duration="5043000" />
+      <workItem from="1526451913402" duration="9674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250723000" />
+    <option name="totallyTimeSpent" value="255354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="282" y="70" width="1440" height="833" extended-state="0" />
+    <frame x="417" y="23" width="1440" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -566,133 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-03/html5/demo/html/04-data-attributes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/总结和微博输入仿写/qq微博.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="130" column="56" lean-forward="false" selection-start-line="130" selection-start-column="56" selection-end-line="130" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/demo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/SVG.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/两侧跟随的广告/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/01-data-attr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/05-wuhuan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="93" column="63" lean-forward="true" selection-start-line="93" selection-start-column="63" selection-end-line="93" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/04-history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/全屏API.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3015">
-          <caret line="201" column="8" lean-forward="false" selection-start-line="201" selection-start-column="8" selection-end-line="201" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/07-full-screen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="242" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/多媒体.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/08-web-storage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="48" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/09-file-api.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="50" column="39" lean-forward="false" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/六 HTML5/2015-12-04/code/10-drag&amp;drop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/拖拽操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/application_cache.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html5/新表移动端.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -880,14 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/02-CSS3基础-第2天/4-源代码/选择器/calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4215">
-          <caret line="281" column="46" lean-forward="true" selection-start-line="281" selection-start-column="46" selection-end-line="281" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/lesson1/linear-graidnet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -920,18 +829,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/02-CSS3基础-第2天/4-源代码/选择器/日历模板.html">
+    <entry file="file://$PROJECT_DIR$/CSS3/lesson1/选择器属性.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="255">
+          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/lesson1/选择器属性.html">
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/02-CSS3基础-第2天/4-源代码/选择器/日历模板.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+        <state relative-caret-position="-1590">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="74" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/02 选择器/calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-443">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/02-CSS3基础-第2天/4-源代码/选择器/calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="288" column="23" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="119" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/06 盒模型/01 盒模型-介绍.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/lesson1/选择器 - 日历.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/08 渐变/04 渐变-应用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="195" column="18" lean-forward="false" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/lesson1/CSS3渐变应用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="115" column="27" lean-forward="true" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/01 伸缩布局-介绍.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/02 伸缩布局-详解 flex-direction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="72" column="4" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/03 伸缩布局-详解 justify-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/04 伸缩布局-详解 align-items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/05 伸缩布局-详解 flex-wrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/06 伸缩布局-详解 align-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/07 伸缩布局-详解 flex-flow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/08 伸缩布局-详解 flex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="83" column="17" lean-forward="true" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/09 伸缩布局-详解 align-self.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/10 伸缩布局-详解 order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/伸缩布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/七 CSS3/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/11 伸缩布局-应用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3伸缩布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="99" column="34" lean-forward="false" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
           <folding />
         </state>
       </provider>
