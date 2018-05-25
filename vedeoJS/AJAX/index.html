@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Apple</title>
+
 </head>
 <body>
-    <div><a href="../下拉菜单/List.html">跳转</a></div>
+    <div><a href="./check.php">跳转</a></div>
+    <div id="result"></div>
+<div>
+    <form action="">
+        用户名：<input type="text" name="username" id="username"><br>
+        密码： <input type="text" name="password" id="password">
+        <input type="submit" value="登录" id="btn">
+    </form>
+</div>
+
+    <script>
+        window.onload = function () {
+            var  btn = document.getElementById("btn");
+            btn.onclick = function () {
+                var username = document.getElementById("username").value;
+                var passworld = document.getElementById("password").value;
+
+                var xhr = null;
+                if (window.XMLHttpRequest) {
+                    xhr = new XMLHttpRequest();
+                }else  {//ie咩有
+                    xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                var url =  './check.php?username=' + username +'&password=' +passworld;
+                xhr.open('get',url,true);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200){
+                            var data = xhr.responseText;
+                            if (data == 1) {
+                                document.getElementById("result").innerHTML = "用户名或者密码错误";
+                            }else if (data == 2){
+                                document.getElementById("result").innerHTML = "登录成功";
+                            }
+
+                        }
+                    }
+                };
+
+                xhr.send(null);
+            };
+
+        }
+    </script>
 
 </body>
 </html>
