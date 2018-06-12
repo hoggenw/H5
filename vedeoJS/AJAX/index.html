@@ -9,7 +9,7 @@
     <div><a href="./check.php">跳转</a></div>
     <div id="result">..</div>
 <div>
-    <form action="">
+    <form>
         用户名：<input type="text" name="username" id="username"><br>
         密码： <input type="text" name="password" id="password">
         <input type="submit" value="登录" id="btn">
@@ -29,7 +29,8 @@
                 }else  {//ie咩有
                     xhr = new ActiveXObject("Microsoft.XMLHTTP");
                 }
-                var url =  '/Users/wangliugen/.bitnami/stackman/machines/xampp/volumes/root/htdocs/check.php?username=' + username +'&password=' +passworld;
+                var url = 'http://localhost:8080/check.php?username=' + username +'&password=' +passworld;
+                console.log(url);
                 xhr.open('get',url,true);
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState == 4) {
