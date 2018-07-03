@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery.js"></script>
+    <title>jQury-ajax测试</title>
+
+</head>
+<body>
+<input type="button" value="点击" id="btn">
+
+<script>
+    $(function () {
+       $("#btn").click(function () {
+           $.ajax({
+               url:"http://localhost:8080/json.php",
+               dataType:"json",
+               type:"GET",
+               success:function (data) {
+                   alert(data);
+               },error:function (e) {
+                   console.log(e);
+                   alert("error");
+               }
+           });
+       }) ;
+    });
+
+</script>
+
+
+</body>
+</html>
