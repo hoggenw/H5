@@ -12,13 +12,29 @@
 
 <script>
     $(function () {
+
+        function callBack(data) {
+            console.log("success: "+ data.name);
+        }
        $("#btn").click(function () {
+           var url =  "http://localhost:8080/check.php?jsonp=?";
+//           $.jsonp({
+//               "url": url,
+//               "success": function(data) {
+//                   $("#current-group").text("当前工作组:"+data.result.name);
+//               },
+//               "error": function(d,msg) {
+//                   alert("Could not find user "+msg);
+//               }
+//           });
            $.ajax({
-               url:"http://localhost:8080/check.php?username=admin&password=a",
-               dataType:"json",
+               url: url,
+               async:true,
+               dataType:"jsonp",
                type:"GET",
                success:function (data) {
-                   alert(data);
+                   console.log(data.name + "  " + data.passWord);
+                   alert(data.name + "  " + data.passWord);
                },error:function (e) {
                    console.log(e);
                    alert("error");
@@ -58,6 +74,10 @@
 
 
     });
+
+</script>
+
+<script type="text/javascript" src="http://localhost:8080/check.php?jsonp=callBack">
 
 </script>
 
