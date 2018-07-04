@@ -20,7 +20,7 @@
       <content type="file-editors">
         <state>
           <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/../../../web前端视频/八 ajax/08 ajax/ajax02/firstday/index.html">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="105">
@@ -40,7 +40,7 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="check.php" pinned="false" current-in-tab="true">
+            <file leaf-file-name="check.php" pinned="false" current-in-tab="false">
               <entry file="file://$USER_HOME$/.bitnami/stackman/machines/xampp/volumes/root/htdocs/check.php">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="180">
@@ -61,8 +61,8 @@
       <file leaf-file-name="jQueryIndex.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AJAX/jQueryIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="200">
+              <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -190,8 +190,8 @@
         <option value="$PROJECT_DIR$/CSS3/lesson1/CSS3 过渡.html" />
         <option value="$PROJECT_DIR$/CSS3/lesson1/CSS3 动画.html" />
         <option value="$PROJECT_DIR$/AJAX/index.html" />
-        <option value="$PROJECT_DIR$/AJAX/jQueryIndex.html" />
         <option value="$USER_HOME$/.bitnami/stackman/machines/xampp/volumes/root/htdocs/check.php" />
+        <option value="$PROJECT_DIR$/AJAX/jQueryIndex.html" />
       </list>
     </option>
   </component>
@@ -208,8 +208,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="462" />
-    <option name="y" value="48" />
+    <option name="x" value="65" />
+    <option name="y" value="25" />
     <option name="width" value="1440" />
     <option name="height" value="839" />
   </component>
@@ -318,10 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="CSS3伸缩布局.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3/CSS3伸缩布局.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.jQueryIndex.html">
     <configuration default="false" name="CSS3多列布局.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/CSS3/lesson1/CSS3多列布局.html">
       <method />
     </configuration>
@@ -332,6 +329,9 @@
       <method />
     </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/AJAX/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="jQueryIndex.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vedeoJS/AJAX/jQueryIndex.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -401,19 +401,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.CSS3伸缩布局.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CSS3多列布局.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CSS3 过渡.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.CSS3 动画.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.CSS3多列布局.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CSS3 过渡.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CSS3 动画.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jQueryIndex.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CSS3 动画.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CSS3 过渡.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.CSS3多列布局.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.CSS3伸缩布局.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jQueryIndex.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CSS3 动画.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.CSS3 过渡.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.CSS3多列布局.html" />
       </list>
     </recent_temporary>
   </component>
@@ -461,15 +461,15 @@
       <workItem from="1527579246830" duration="1212000" />
       <workItem from="1528685157260" duration="1764000" />
       <workItem from="1529405468944" duration="222000" />
-      <workItem from="1530154130055" duration="3826000" />
+      <workItem from="1530154130055" duration="6154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269164000" />
+    <option name="totallyTimeSpent" value="271492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="462" y="48" width="1440" height="839" extended-state="0" />
+    <frame x="65" y="25" width="1440" height="839" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -852,22 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/八 ajax/08 ajax/ajax02/firstday/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../web前端视频/八 ajax/08 ajax/ajax02/firstday/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -910,14 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.bitnami/stackman/machines/xampp/volumes/root/htdocs/check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AJAX/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
@@ -926,10 +902,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.bitnami/stackman/machines/xampp/volumes/root/htdocs/check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/八 ajax/08 ajax/ajax02/firstday/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AJAX/jQueryIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="200">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../web前端视频/八 ajax/08 ajax/ajax02/firstday/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

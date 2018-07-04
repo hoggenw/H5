@@ -14,7 +14,7 @@
     $(function () {
        $("#btn").click(function () {
            $.ajax({
-               url:"http://localhost:8080/json.php",
+               url:"http://localhost:8080/check.php?username=admin&password=a",
                dataType:"json",
                type:"GET",
                success:function (data) {
@@ -25,6 +25,38 @@
                }
            });
        }) ;
+
+       $obj = {
+           name:'zhangsan',
+           say:function () {
+               console.log("hello");
+           }
+       }
+
+       $cd =  function () {
+           console.log(123);
+       }
+
+       function fn2(callBack) {
+           callBack();
+       }
+       fn2($obj.say);
+
+       function fn4() {
+           var n= 1;
+           var fn = function () {
+               n ++ ;
+               console.log(n);
+           }
+           return fn;
+       }
+       $fn5 = fn4();
+       $fn5();
+       $fn5();
+       $fn5();
+
+
+
     });
 
 </script>
