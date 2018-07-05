@@ -21,8 +21,8 @@
       <file leaf-file-name="jQueryIndex.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AJAX/jQueryIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="-99">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -168,8 +168,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="368" />
-    <option name="y" value="31" />
+    <option name="x" value="148" />
+    <option name="y" value="24" />
     <option name="width" value="1440" />
     <option name="height" value="839" />
   </component>
@@ -421,15 +421,15 @@
       <workItem from="1527579246830" duration="1212000" />
       <workItem from="1528685157260" duration="1764000" />
       <workItem from="1529405468944" duration="222000" />
-      <workItem from="1530154130055" duration="9335000" />
+      <workItem from="1530154130055" duration="14761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274673000" />
+    <option name="totallyTimeSpent" value="280099000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="368" y="31" width="1440" height="839" extended-state="0" />
+    <frame x="148" y="24" width="1440" height="839" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -888,8 +888,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AJAX/jQueryIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="-99">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding />
         </state>
       </provider>
