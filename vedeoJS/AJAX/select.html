@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+
+
+<script type="text/javascript">
+    $(function () {
+        var province = function (pCode) {
+            $.ajax({
+                url:'data.php',
+                type:'get',
+                dateType: 'jsonp',
+                data:{citycode:pCode,flag : 1},
+                success:function (data) {
+
+                }
+            });
+        }
+        $('#province').change(function () {
+            var pCode = $(this).val();
+            province(pCode);
+            
+        })
+
+        
+    });
+</script>
+
+<div id="showInfo">
+    <div>
+        <selcet id="province">
+            
+        </selcet>
+    </div>
+</div>
+
+</body>
+</html>
