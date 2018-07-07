@@ -51,8 +51,8 @@
       <file leaf-file-name="select.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AJAX/select.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="215">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -208,8 +208,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="356" />
-    <option name="y" value="33" />
+    <option name="x" value="329" />
+    <option name="y" value="61" />
     <option name="width" value="1440" />
     <option name="height" value="839" />
   </component>
@@ -447,15 +447,15 @@
       <workItem from="1527579246830" duration="1212000" />
       <workItem from="1528685157260" duration="1764000" />
       <workItem from="1529405468944" duration="222000" />
-      <workItem from="1530154130055" duration="19668000" />
+      <workItem from="1530154130055" duration="19997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285006000" />
+    <option name="totallyTimeSpent" value="285335000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="356" y="33" width="1440" height="839" extended-state="0" />
+    <frame x="329" y="61" width="1440" height="839" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -917,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AJAX/select.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="215">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding />
         </state>
       </provider>
