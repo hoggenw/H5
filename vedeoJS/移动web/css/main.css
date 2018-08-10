@@ -231,6 +231,13 @@ body {
     position: relative;
 }
 
+.panel-default-cuntom > .panel-heading>.tooltips {
+    position: absolute;
+    width:100%;
+    text-align: center;
+    top: 30px;
+}
+
 .panel-default-cuntom > .panel-heading::before {
     content: '';
     width: 16px;
@@ -242,6 +249,8 @@ body {
     left: -8px;
 
 }
+
+
 
 .panel-default-cuntom > .panel-heading::after {
     content: ' ';
