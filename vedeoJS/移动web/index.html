@@ -229,15 +229,22 @@
 <!-- 产品推荐 -->
 <section id="products">
     <div class="container">
+        <!--
+   1. 要给ul加一个容器，这个容器有横向滚动条
+   2. 动态设置ul的宽度，宽度是根据内容大小决定的
+     width= sum (li.width)
+  -->
         <!-- Nav tabs -->
+        <div class="ul-wapper">
         <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">特别推荐</a></li>
             <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">微投资</a></li>
             <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">微小宝</a></li>
             <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">微消费</a></li>
             <li role="presentation"><a href="#custom" aria-controls="custom" role="tab" data-toggle="tab">微消费</a></li>
-            <li class="pull-right"><a href="#">更多</a></li>
+            <li class="pull-right hidden-sm hidden-xs"><a href="#">更多</a></li>
         </ul>
+        </div>
         <!-- Tab panes -->
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane fade in active" id="home">
@@ -247,8 +254,8 @@
 
                             <div class="panel-heading">
                                 <p class="tooltips">
-                                    <a class="badge badge-one" href="#">京</a> class="badge one"
-                                    <a class="badge" href="#">沪</a>
+                                    <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="北京欢饮你" href="#">京</a>
+                                    <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="上海定时达" href="#">沪</a>
                                 </p>
                             </div>
                             <div class="panel-body">
@@ -334,6 +341,81 @@
 <!-- 新闻列表 -->
 <section id="news">
     <div class="container">
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-3">
+                <div class="news-title">
+                    全部新闻
+                </div>
+            </div>
+            <div class="col-sm-1">
+                <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation" class="active"><a data-title="全部新闻" href="#news01" data-toggle="tab" role="tab"><i class="icon-news01"></i></a></li>
+                    <li role="presentation"><a data-title="媒体新闻" href="#news02" data-toggle="tab" role="tab"><i class="icon-news02"></i></a></li>
+                    <li role="presentation"><a data-title="行业资讯" href="#news03" data-toggle="tab" role="tab"><i class="icon-news03"></i></a></li>
+                    <li role="presentation"><a data-title="XXXX" href="#news04" data-toggle="tab" role="tab"><i class="icon-news04"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="news01">
+                        <ul>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="news02">
+                        <ul>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="news03">
+                        <ul>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="news04">
+                        <ul>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                            <li>微金所发钱了，快来抢！！！！！</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </section>
