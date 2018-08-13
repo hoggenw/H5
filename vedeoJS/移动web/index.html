@@ -49,7 +49,7 @@
                 </div>
                 <div class="col-md-3 text-center">
                     <a href="#" class="btn btn-sm btn-itcast">免费注册</a>
-                    <a href="#" class="btn btn-sm btn-link">登录</a>
+                    <a href="#" class="btn btn-sm btn-link" data-toggle="modal" data-target="#login-form">登录</a>
                 </div>
 
             </div>
@@ -57,7 +57,7 @@
         </div>
     </div>
 
-    <div class="nav  navbar-itcast navbar-static-top">
+    <div class="nav  navbar-itcast navbar-static-top " data-spy="affix" data-offset-top="40">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -421,11 +421,41 @@
 </section>
 <!-- /新闻列表 -->
 <!-- 合作伙伴 -->
-<section></section>
+<section id="hzhb" class="hidden-sm hidden-xs">
+    <div class="container text-center">
+        <h3>合作伙伴</h3>
+        <ul class="center-block">
+            <li><a href="#"><i class="icon-uniE930"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92F"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92E"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92A"></i></a></li>
+            <li><a href="#"><i class="icon-uniE929"></i></a></li>
+            <li><a href="#"><i class="icon-uniE931"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92C"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92B"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92D"></i></a></li>
+        </ul>
+    </div>
+</section>
 <!-- /合作伙伴 -->
 <!-- 脚注区域 -->
 <footer id="footer"></footer>
 <!-- /脚注区域 -->
+
+<!-- Modal -->
+<div class="modal fade" id="login-form" tabindex="-1" role="dialog" aria-labelledby="login-form-title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="login-form-title">登录</h4>
+            </div>
+            <div class="modal-body">
+                <p>dksldlaskda;s你说的卡视角达拉斯的</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="../AJAX/jquery.js"></script>
 <script src="js/main.js"></script>
