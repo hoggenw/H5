@@ -38,4 +38,37 @@ $(function () {
 
 
     });
+
+    //1.获取滑动方向
+    var $carousle = $('.carousel');
+    //注册滑动事件
+    var startX;
+    var endX;
+    $carousle.on('touchstart',function (e) {
+        console.log(e.originalEvent.touches[0].clientX);
+        startX = e.originalEvent.touches[0].clientX;
+
+    });
+    $carousle.on('touchmove',function (e) {
+        console.log(e.originalEvent.touches[0].clientX);
+        endX = e.originalEvent.touches[0].clientX;
+
+    });
+
+    $carousle.on('touchend',function (e) {
+        if (endX - startX > 50){
+            console.log('右');
+            $(this).carousel('prev');
+
+        }else if (startX - endX > 50){
+            console.log('左');
+            $(this).carousel('next');
+        }
+
+    });
+
+    //2.根据获得到的方向选择上一张或者下一章
+    //
+
+
 });
