@@ -1,0 +1,155 @@
+body{
+    background-color: #f3f4f5;
+    /*height: 1000px;*/
+}
+.jd_lyout {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.jd_header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 999;
+    /*background-color: #ff4400;*/
+
+}
+
+.jd_header > .jd_header_box {
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    background:rgba(201,21,35,0.75);
+    height: 40px;
+}
+
+/*logo*/
+.jd_header > .jd_header_box > .icon_logo_jd {
+    background-position: 0 -103px;
+    width: 60px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+.jd_header form {
+    width: 100%;
+    height: 40px;
+    padding-left: 75px;
+    padding-right: 55px;
+}
+
+.jd_header form .icon_search {
+    background-position: -60px -109px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 85px;
+}
+
+.jd_header  form  input {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+/*login*/
+.jd_header .login {
+    width: 50px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+#carousel-example-generic .carousel-inner .item .customH {
+    height: auto;
+}
+
+
+/*菜单选项栏*/
+.jd_nav {
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid #c0c0c0;
+    background-color: #FFFFFF;
+}
+
+.jd_nav ul{
+    width: 100%;
+    margin-top: 11px;
+    padding: 0 3.125%;
+
+}
+
+.jd_nav ul li {
+    width: 25%;
+    height: 69px;
+    float: left;
+}
+
+.jd_nav ul li a {
+    display: block;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+.jd_nav ul li a img {
+    display: block;
+    width: 40px;
+    margin: 0 auto;
+}
+
+.jd_nav ul li a p {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 6px;
+}
+
+
+/*商品模块*/
+.jd_product {
+    margin: 0 5px;
+}
+
+/*模块划分盒子*/
+.jd_product .jd_product_box {
+    box-shadow: 0 0 1px 1px #c0c0c0;
+    background-color: #FFFFFF;
+    margin-top: 8px;
+
+}
+
+.jd_product .jd_product_box .product_top {
+    height: 32px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.jd_product .jd_product_box .product_top .no_bor {
+    border-bottom: none;
+}
+
+.jd_product .jd_product_box .product_bot {
+
+}
+
