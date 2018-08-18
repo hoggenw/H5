@@ -96,8 +96,9 @@ body{
 
 .jd_nav ul{
     width: 100%;
-    margin-top: 11px;
+
     padding: 0 3.125%;
+    padding-top: 11px;
 
 }
 
@@ -134,9 +135,13 @@ body{
 
 /*模块划分盒子*/
 .jd_product .jd_product_box {
-    box-shadow: 0 0 1px 1px #c0c0c0;
-    background-color: #FFFFFF;
-    margin-top: 8px;
+      box-shadow: 0 0 1px 1px #c0c0c0;
+      background-color: #FFFFFF;
+      margin-top: 8px;
+
+  }
+.jd_product .jd_pd {
+    margin-top: -10px;
 
 }
 
@@ -145,11 +150,182 @@ body{
     border-bottom: 1px solid #e0e0e0;
 }
 
-.jd_product .jd_product_box .product_top .no_bor {
+.jd_product .jd_product_box .no_bor {
     border-bottom: none;
 }
 
-.jd_product .jd_product_box .product_bot {
+.jd_product .jd_product_box .product_top h3 {
+    font-size: 15px;
+    color: #666666;
+    padding-left: 17px;
+    font-weight: inherit;
+    line-height: 32px;
+    position: relative;
+}
+
+.jd_product .jd_product_box .product_top h3::before{
+    content: "";
+    display: block;
+    width: 3px;
+    height: 12px;
+    background: #d8505c;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.jd_secondKill {
 
 }
 
+.jd_secondKill .jd_secondKill_left {
+    float: left;
+
+}
+
+.jd_secondKill .jd_secondKill_left .sk_icon{
+    background: url("../img/seckill-icon.png") no-repeat;
+    background-size: 16px 20px;
+    width: 16px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin-left: 8px;
+    margin-top: 6px;
+
+}
+
+.jd_secondKill .jd_secondKill_left .sk_name{
+    font-size: 15px;
+    color: #d8505c;
+    font-weight: inherit;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.jd_secondKill .jd_secondKill_left .sk_time{
+
+    float: left;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.jd_secondKill .jd_secondKill_left .sk_time .num{
+    display: block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    background: #333333;
+    color: #FFFFFF;
+    float: left;
+    line-height: 15px;
+    margin-left: 3px;
+}
+
+
+.jd_secondKill .jd_secondKill_left .sk_time .str{
+    display: block;
+    width: 4px;
+    height: 15px;
+    text-align: center;
+    float: left;
+    line-height: 15px;
+    margin-left: 3px;
+    color: #333333;
+}
+
+
+
+.jd_secondKill .jd_secondKill_right {
+    float: right;
+
+}
+
+.jd_secondKill .jd_secondKill_right a {
+    line-height: 32px;
+    margin-right: 10px;
+
+}
+
+
+.jd_product .jd_product_box .product_bot {
+    width: 100%;
+}
+
+.jd_product .jd_product_box .product_bot ul{
+     width: 100%;
+    margin-top: 20px;
+
+ }
+.jd_product .jd_product_box .product_bot ul li{
+    width: 33.3333%;
+    float: left;
+
+}
+
+.jd_product .jd_product_box .product_bot ul li a{
+    width: 100%;
+    text-align: center;
+}
+
+.jd_product .jd_product_box .product_bot ul li a .img_box{
+    width: 100%;
+    border-left: 1px solid #e0e0e0;
+}
+
+
+.jd_product .jd_product_box .product_bot ul li a .img_box img {
+    width: 64%;
+    display: block;
+    margin: 0 auto;
+}
+
+.jd_product .jd_product_box .product_bot ul li a .now_price{
+    color: #d8505c;
+    font-size: 13px;
+
+}
+
+.jd_product .jd_product_box .product_bot ul li a .old_price{
+    color: #666666;
+    font-size: 12px;
+    text-decoration: line-through;
+
+}
+
+.jd_pd {
+
+}
+
+
+.jd_pd .p_left {
+    float: left;
+    width: 50%;
+    border-right: 1px solid #e0e0e0;
+}
+
+.jd_pd .p_left img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.jd_pd .p_right {
+    float: right;
+    width: 50%;
+}
+
+.jd_pd .p_right img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.jd_pd .b_bottom {
+    border-bottom: 1px solid #e0e0e0;
+}
