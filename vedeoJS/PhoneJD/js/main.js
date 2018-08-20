@@ -20,4 +20,13 @@ $(function () {
             $(this).carousel('next');
         }
     });
+
+    $('#left_item_groups a').on('click',function () {
+        $('#left_item_groups').children().removeClass('active');
+         var $this = $(this);
+         $this.addClass('active');
+
+    });
+
+    $('#show_delete_product').modal(options);
 });
