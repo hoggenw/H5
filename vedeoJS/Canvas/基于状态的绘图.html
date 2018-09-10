@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基于状态的绘图</title>
+</head>
+<body>
+<div id="container">
+    <canvas id="cavsElem">
+        你的浏览器不支持canvas，请升级浏览器
+    </canvas>
+</div>
+<script>
+    (function () {
+        var canvas = document.querySelector( '#cavsElem' );
+        var ctx = canvas.getContext('2d');
+        canvas.width = 600;
+        canvas.height = 800;
+        canvas.style.border = "1px solid #000";
+        ctx.strokeStyle = 'red';
+        ctx.lineWidth = 20;
+        ctx.fillStyle = 'green';
+
+        ctx.beginPath();//没有必要的。默认上来就一个状态
+        //状态里面： 当前状态里面的绘制样式。
+        ctx.moveTo(100,100);
+        ctx.lineTo(300,100);
+
+        ctx.stroke();
+
+        ctx.beginPath();// 2开一个新路径，开启新状态的绘图
+        //开启了一个新的状态，新状态可以继承之前状态的样式，
+        //但是当前状态设置所有的样式，只能作用于当前的状态。
+         ctx.strokeStyle = 'green';
+        ctx.moveTo(100, 200);
+        ctx.lineTo(300, 200);
+        ctx.stroke();
+
+        ctx.beginPath();// 3开一个新路径，开启新状态的绘图
+        //开启了一个新的状态，新状态可以继承之前状态的样式，
+        //但是当前状态设置所有的样式，只能作用于当前的状态。
+        //lineWidth:20
+        // strokeStyle: green
+        ctx.strokeStyle = 'purple';
+        ctx.moveTo(100, 300);
+        ctx.lineTo(300, 300);
+        ctx.stroke();
+        // 前两个参数是:矩形的x,y坐标，　后面两个参数：矩形的宽高
+        //ctx.rect(x,y,w,h);
+        ctx.rect(100,400,100,100);
+        ctx.stroke();
+
+        ctx.strokeRect(100, 500, 150 ,100);
+        ctx.fillRect(100, 720, 60, 60);
+
+
+
+    }());
+
+</script>
+
+</body>
+</html>
