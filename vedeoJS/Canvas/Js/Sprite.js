@@ -20,6 +20,54 @@ Sprite.prototype = {
         this._dirIndex = 0;
 
         this._imgSrc = option.imgSrc || '';
+    },
+    render:function (ctx) {
+        var img = new Image();
+        img.src = this._imgSrc;
+
+        var self = this;
+        img.onload = function () {
+            var frameIndex = 0;
+            // this == img
+            // 第二步：加载完图片后，　启动一个　时钟，不停的渲染动画
+            setInterval(function(){
+                ctx.clearRect( 0,0 , ctx.canvas.width , ctx.canvas.height);
+                ctx.drawImage(
+                    img //绘制的原始图片
+                    , frameIndex * self.originW  // 剪切图片的x坐标
+                    , self._dirIndex * self.originH
+                    , self.originW
+                    , self.originH
+                    , self.x
+                    , self.y
+                    , self.w
+                    , self.h
+                );
+
+                frameIndex ++ ;
+                frameIndex %= 4;
+            }, 1000 / self.fps)
+        }
+
+    },
+    //改变方向
+    changeDir: function( dir ) {
+        if( dir == 'left' ) {
+            this._dirIndex = 1;
+        }
+
+        if( dir == 'right' ) {
+            this._dirIndex = 2;
+        }
+
+
+        if( dir == 'up' ) {
+            this._dirIndex = 3;
+        }
+
+        if( dir == 'down' ) {
+            this._dirIndex = 0;
+        }
     }
 
-}
+};
